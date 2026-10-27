@@ -1,0 +1,9 @@
+{
+  "docker_cli": null,
+  "podman_cli": null,
+  "container_build_executed": false,
+  "reason": "No Docker/Podman runtime or daemon socket; sandbox has no effective Linux capabilities. CI build and image scan are supplied but not executed.",
+  "native_publish_executed": true,
+  "native_process_uid": 1000,
+  "tests_use_published_assembly": true
+}

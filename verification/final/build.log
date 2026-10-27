@@ -1,0 +1,34 @@
+  Determining projects to restore...
+  Restored /home/user/aethergrid/dotnet/AetherGrid.Core/AetherGrid.Core.csproj (in 134 ms).
+  Restored /home/user/aethergrid/dotnet/AetherGrid.Server/AetherGrid.Server.csproj (in 1.48 sec).
+npm warn deprecated recharts@2.15.4: 1.x and 2.x branches are no longer active. Bump to Recharts v3 to receive latest features and bugfixes. See https://github.com/recharts/recharts/wiki/3.0-migration-guide
+
+added 186 packages, and audited 187 packages in 3s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> aethergrid-console@1.0.0 build
+> tsc -b && vite build
+
+vite v6.4.5 building for production...
+transforming...
+✓ 2236 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.98 kB │ gzip:   0.60 kB
+dist/assets/index-Cy4q-QaU.css  211.36 kB │ gzip:  32.74 kB
+dist/assets/index-DfkkHKPJ.js   753.81 kB │ gzip: 213.20 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 7.32s
+  AetherGrid.Core -> /home/user/aethergrid/dotnet/AetherGrid.Core/bin/Release/net10.0/AetherGrid.Core.dll
+  AetherGrid.Server -> /home/user/aethergrid/dotnet/AetherGrid.Server/bin/Release/net10.0/AetherGrid.Server.dll
+  AetherGrid.Server -> /home/user/aethergrid/.runtime/
+
+Built .runtime. Configure private users/keys/DB and run from .runtime; see README.md.

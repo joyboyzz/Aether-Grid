@@ -1,0 +1,12 @@
+## What changed and why?
+
+## Verification performed
+- [ ] Minimal synthetic reproduction / regression coverage added
+- [ ] Relevant unit, parity or browser checks run (state exact commands/results)
+- [ ] No credentials, private DBs, generated dependencies or operational/customer data
+- [ ] Implemented vs simulated vs externally unverified claims remain explicit
+- [ ] README updated if behaviour or setup changed; keep the single-Markdown policy
+
+## Scope / risks / unexecuted checks
+
+Do not claim CI, deployment, physical rescue, field-model accuracy or real financial execution without evidence.

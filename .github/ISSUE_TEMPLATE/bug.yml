@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible software issue using synthetic data only.
+title: '[Bug]: '
+body:
+  - type: markdown
+    attributes:
+      value: 'Please do not include passwords, tokens, private database files, real customer data or unsafe food-quality claims.'
+  - type: dropdown
+    id: implementation
+    attributes:
+      label: Which implementation?
+      options: [Native .NET workflow, React portal, Python reference/demo, Tests or tooling, Documentation]
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Include the commit/version, OS/runtime and a minimal synthetic fixture.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Redact secrets and identifying data. Do not paste a full private DB.

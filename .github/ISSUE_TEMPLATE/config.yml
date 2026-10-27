@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Setup, architecture and current scope
+    url: https://github.com/joyboyzz/Aether-Grid#readme
+    about: Read the master project guide before opening an issue.
+  - name: Security reporting guidance
+    url: https://github.com/joyboyzz/Aether-Grid#security-policy-and-responsible-reporting
+    about: Never disclose credentials or a sensitive vulnerability in a public issue.

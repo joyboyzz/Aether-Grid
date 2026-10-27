@@ -1,0 +1,16 @@
+lot_id,source,split,temperature_c,observed_shelf_hours,shelf_reference_hours
+SYNTHETIC-Seafood (Pomfret)-0,synthetic,train,5,82.41661241306772,84
+SYNTHETIC-Seafood (Pomfret)-1,synthetic,train,12,37.65762067939805,84
+SYNTHETIC-Seafood (Pomfret)-2,synthetic,train,20,15.100914587099158,84
+SYNTHETIC-Seafood (Pomfret)-3,synthetic,train,28,5.698065495483822,84
+SYNTHETIC-Seafood (Pomfret)-4,synthetic,train,35,2.4885617416764503,84
+SYNTHETIC-Seafood (Pomfret)-5,synthetic,train,5,84.12537428151289,84
+SYNTHETIC-Seafood (Pomfret)-6,synthetic,train,12,37.00993442893549,84
+SYNTHETIC-Seafood (Pomfret)-7,synthetic,train,20,14.487667315289759,84
+SYNTHETIC-Seafood (Pomfret)-8,synthetic,train,28,5.916262465461452,84
+SYNTHETIC-Seafood (Pomfret)-9,synthetic,train,35,2.5669765661768675,84
+SYNTHETIC-Seafood (Pomfret)-10,synthetic,holdout,5,82.33750296442315,84
+SYNTHETIC-Seafood (Pomfret)-11,synthetic,holdout,12,37.138572144918,84
+SYNTHETIC-Seafood (Pomfret)-12,synthetic,holdout,20,14.694397414779687,84
+SYNTHETIC-Seafood (Pomfret)-13,synthetic,holdout,28,5.828258031188037,84
+SYNTHETIC-Seafood (Pomfret)-14,synthetic,holdout,35,2.592636342336883,84

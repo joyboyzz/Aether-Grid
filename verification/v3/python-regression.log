@@ -1,0 +1,58 @@
+/usr/local/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_expired_confirmation_cannot_pay (test_bid_flow.BidFlowTests.test_expired_confirmation_cannot_pay) ... ok
+test_expired_rejected (test_bid_flow.BidFlowTests.test_expired_rejected) ... ok
+test_partial_bid_does_not_clear_lot (test_bid_flow.BidFlowTests.test_partial_bid_does_not_clear_lot) ... ok
+test_reject_then_fallback_and_no_double_spend (test_bid_flow.BidFlowTests.test_reject_then_fallback_and_no_double_spend) ... ok
+test_rejection_releases_reservations_and_reopens (test_bid_flow.BidFlowTests.test_rejection_releases_reservations_and_reopens) ... ok
+test_retry_budget_is_bounded (test_bid_flow.BidFlowTests.test_retry_budget_is_bounded) ... ok
+test_timeout_sweep_idempotent (test_bid_flow.BidFlowTests.test_timeout_sweep_idempotent) ... ok
+test_unauthorized_confirmation_rejected (test_bid_flow.BidFlowTests.test_unauthorized_confirmation_rejected) ... ok
+test_competing_confirmations_one_settlement (test_concurrency.ConcurrencyTests.test_competing_confirmations_one_settlement) ... ok
+test_failed_computation_rolls_back_confirmation (test_concurrency.ConcurrencyTests.test_failed_computation_rolls_back_confirmation) ... ok
+test_same_auction_one_reservation (test_concurrency.ConcurrencyTests.test_same_auction_one_reservation) ... ok
+test_shared_buyer_no_double_spend (test_concurrency.ConcurrencyTests.test_shared_buyer_no_double_spend) ... ok
+test_each_gate (test_eligibility.EligibilityTests.test_each_gate) ... ok
+test_eligible (test_eligibility.EligibilityTests.test_eligible) ... ok
+test_exact_funds_and_capacity (test_eligibility.EligibilityTests.test_exact_funds_and_capacity) ... ok
+test_bootstrap_sum_assured_example (test_oracle_security.OracleAndSecurityTests.test_bootstrap_sum_assured_example) ... ok
+test_floor_is_not_guaranteed (test_oracle_security.OracleAndSecurityTests.test_floor_is_not_guaranteed) ... ok
+test_identity_binding (test_oracle_security.OracleAndSecurityTests.test_identity_binding) ... ok
+test_signature_replay_and_tamper (test_oracle_security.OracleAndSecurityTests.test_signature_replay_and_tamper) ... ok
+test_snapshot_has_no_infinity (test_oracle_security.OracleAndSecurityTests.test_snapshot_has_no_infinity) ... ok
+test_stale_packet_rejected (test_oracle_security.OracleAndSecurityTests.test_stale_packet_rejected) ... ok
+test_topup_bounded_by_penalty (test_oracle_security.OracleAndSecurityTests.test_topup_bounded_by_penalty) ... ok
+test_anonymous_and_wrong_token_denied (test_v2_access.AccessTests.test_anonymous_and_wrong_token_denied) ... ok
+test_auditor_read_only (test_v2_access.AccessTests.test_auditor_read_only) ... ok
+test_buyer_binding (test_v2_access.AccessTests.test_buyer_binding) ... ok
+test_default_deployment_secrets_fail_closed (test_v2_access.AccessTests.test_default_deployment_secrets_fail_closed) ... ok
+test_demo_admin_disabled_even_operator (test_v2_access.AccessTests.test_demo_admin_disabled_even_operator) ... ok
+test_device_binding (test_v2_access.AccessTests.test_device_binding) ... ok
+test_expired_credential_denied (test_v2_access.AccessTests.test_expired_credential_denied) ... ok
+test_oversized_body_rejected (test_v2_access.AccessTests.test_oversized_body_rejected) ... ok
+test_websocket_requires_operator (test_v2_access.AccessTests.test_websocket_requires_operator) ... ok
+test_integrity_and_no_overwrite (test_v2_backup.BackupTests.test_integrity_and_no_overwrite) ... ok
+test_holdout_leakage_rejected (test_v2_calibration.CalibrationTests.test_holdout_leakage_rejected) ... ok
+test_missing_holdout_rejected (test_v2_calibration.CalibrationTests.test_missing_holdout_rejected) ... ok
+test_recovers_known_synthetic_constant (test_v2_calibration.CalibrationTests.test_recovers_known_synthetic_constant) ... ok
+test_synthetic_not_field_evidence (test_v2_calibration.CalibrationTests.test_synthetic_not_field_evidence) ... ok
+test_baseline_cannot_reset_or_reuse_history (test_v2_operations.OperationsTests.test_baseline_cannot_reset_or_reuse_history) ... ok
+test_callback_amount_and_freshness (test_v2_operations.OperationsTests.test_callback_amount_and_freshness) ... ok
+test_conflicting_delivery_rejected (test_v2_operations.OperationsTests.test_conflicting_delivery_rejected) ... ok
+test_delivery_release_once (test_v2_operations.OperationsTests.test_delivery_release_once) ... ok
+test_intent_idempotency (test_v2_operations.OperationsTests.test_intent_idempotency) ... ok
+test_live_mode_blocked (test_v2_operations.OperationsTests.test_live_mode_blocked) ... ok
+test_partial_receipt_is_dispute (test_v2_operations.OperationsTests.test_partial_receipt_is_dispute) ... ok
+test_signed_callback_duplicate (test_v2_operations.OperationsTests.test_signed_callback_duplicate) ... ok
+test_unsigned_callback_denied (test_v2_operations.OperationsTests.test_unsigned_callback_denied) ... ok
+test_v2_mac_binds_auxiliary_fields (test_v2_restart.EnvelopeTests.test_v2_mac_binds_auxiliary_fields) ... ok
+test_v2_replay_rejected (test_v2_restart.EnvelopeTests.test_v2_replay_rejected) ... ok
+test_production_rejects_legacy_and_accepts_bound_v2 (test_v2_restart.ProductionEnvelopeTests.test_production_rejects_legacy_and_accepts_bound_v2) ... ok
+test_production_requires_reviewed_baseline (test_v2_restart.ProductionEnvelopeTests.test_production_requires_reviewed_baseline) ... ok
+test_failed_transaction_cannot_advance_checkpoint (test_v2_restart.RestartTests.test_failed_transaction_cannot_advance_checkpoint) ... ok
+test_fresh_process_retains_clock_and_replay_cursor (test_v2_restart.RestartTests.test_fresh_process_retains_clock_and_replay_cursor) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 2.072s
+
+OK

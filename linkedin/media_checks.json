@@ -1,0 +1,12 @@
+{
+  "pages": 6,
+  "pixels": [
+    1080,
+    1350
+  ],
+  "text_bounds_issues": [],
+  "uses_actual_screenshot": true,
+  "screenshot_source": "verification/final/journey-operator-settled.png",
+  "independent_project": true,
+  "simulated_outcomes_labelled": true
+}

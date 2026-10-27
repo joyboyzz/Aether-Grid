@@ -1,0 +1,11 @@
+import React,{useEffect,useState} from "react";
+import {detectBackend,session,request} from "./lib/auth";
+export default function AuthGate({children}:{children:React.ReactNode}) {
+ const [ready,setReady]=useState(false),[native,setNative]=useState(false),[user,setUser]=useState<any>(null),[error,setError]=useState("");
+ useEffect(()=>{detectBackend().then(async n=>{setNative(n);if(n)try{setUser(await session())}catch{}setReady(true)}).catch(()=>{setError("Backend unreachable. Check the service and reload.");setReady(true)});const expired=()=>setUser(null);window.addEventListener("auth-expired",expired);return()=>window.removeEventListener("auth-expired",expired)},[]);
+ if(!ready)return <p style={{padding:32}}>Connecting securely…</p>;
+ if(error&&!native)return <p role="alert" style={{padding:32}}>{error}</p>;
+ if(native&&!user)return <main style={{maxWidth:430,margin:"70px auto",padding:32,background:"#102020",borderRadius:16}}><h1>AetherGrid sign in</h1><p>Authorized software operators only. No live financial execution.</p><form onSubmit={async e=>{e.preventDefault();const data=new FormData(e.currentTarget);try{const r=await request("/api/auth/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(Object.fromEntries(data))});if(!r.ok)throw new Error("Sign in failed. Check credentials or try later.");setUser(await session());setError("")}catch(e){setError(String(e))}}}><label>Username<input name="username" autoComplete="username" required style={{display:"block",margin:"12px 0",padding:12,width:"100%"}}/></label><label>Password<input name="password" type="password" autoComplete="current-password" required style={{display:"block",margin:"12px 0",padding:12,width:"100%"}}/></label><button type="submit">Sign in</button><p role="alert">{error}</p></form></main>;
+ if(native&&user?.role==="buyer"&&window.location.pathname!=="/buyer"){window.location.replace("/buyer");return <p>Opening buyer portal…</p>;}
+ return <>{native&&<div style={{padding:"8px 20px",background:"#102020"}}>{user.subject} · {user.role} · native .NET / simulated ledger <button onClick={async()=>{await request("/api/auth/logout",{method:"POST"});setUser(null)}}>Sign out</button></div>}{children}</>;
+}

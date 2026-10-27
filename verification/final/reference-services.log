@@ -1,0 +1,70 @@
+INFO:     Started server process [3343]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8040 (Press CTRL+C to quit)
+[aethergrid] Router loaded with 17 nodes, 16 edges (NH-44 Delhi→Bengaluru)
+[aethergrid] Author: Praveen Sudireddy
+INFO:     127.0.0.1:39404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /buyer HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /analytics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /carrier HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /insurance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /api/batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /api/buyers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /api/settlements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /api/carrier/sla HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /api/insurance/claims HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "POST /api/admin/seed-truck-batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39430 - "WebSocket /telemetry/stream" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:39444 - "GET /socket.io/?transport=polling&EIO=4&t=1792865692.8465252 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39446 - "GET /socket.io/?transport=polling&EIO=4&sid=2oR4b29PK6QoCPQZAAAA&t=1792865692.848715 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39444 - "POST /socket.io/?transport=polling&EIO=4&sid=2oR4b29PK6QoCPQZAAAA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39446 - "GET /socket.io/?transport=polling&EIO=4&sid=2oR4b29PK6QoCPQZAAAA&t=1792865692.8495984 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39446 - "POST /socket.io/?transport=polling&EIO=4&sid=2oR4b29PK6QoCPQZAAAA HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3343]
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AetherGrid.Core -> /home/user/aethergrid/dotnet/AetherGrid.Core/bin/Release/net10.0/AetherGrid.Core.dll
+  AetherGrid.Api -> /home/user/aethergrid/dotnet/AetherGrid.Api/bin/Release/net10.0/AetherGrid.Api.dll
+  AetherGrid.Api -> /home/user/aethergrid/.acceptance-private/algorithm/
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://0.0.0.0:8041
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/user/aethergrid
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://127.0.0.1:8041/healthz - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /healthz'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /healthz'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://127.0.0.1:8041/healthz - 200 - application/json;+charset=utf-8 101.7410ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:8041/api/algorithm/settlement - application/json 306
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:8041/api/algorithm/settlement - 401 0 - 1.1636ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:8041/api/algorithm/settlement - application/json 306
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: POST /api/algorithm/settlement'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type 'SettlementResult' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: POST /api/algorithm/settlement'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:8041/api/algorithm/settlement - 200 - application/json;+charset=utf-8 32.1820ms
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

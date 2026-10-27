@@ -1,0 +1,242 @@
+{
+  "clock": "1 simulated biological hour per accepted packet; no real travel/delivery",
+  "steps": [],
+  "batch_id": "B-029AA2F4",
+  "buyer_id": "B-BLR",
+  "bootstrap": {
+    "truck_id": "VERIFY-1792749371",
+    "carrier_id": "CR-01",
+    "hsm_serial": "VERIFY-HMAC-1792749371",
+    "commodity": "Alphonso Mango",
+    "weight_kg": 1000,
+    "contract_value_inr": 120000,
+    "farmer_payout_inr": 0,
+    "origin_name": "Bengaluru synthetic load",
+    "origin_lat": 13.0296,
+    "origin_lng": 77.5457,
+    "destination_name": "Hyderabad",
+    "dest_lat": 17.385,
+    "dest_lng": 78.4867
+  },
+  "telemetry": [
+    {
+      "seq": 1,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 117.92,
+        "spoil_eta_hours": 12.14,
+        "life_consumed_pct": 7.61,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "fresh",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 2,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 108.21,
+        "spoil_eta_hours": 11.14,
+        "life_consumed_pct": 15.22,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "fresh",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 3,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 98.49,
+        "spoil_eta_hours": 10.14,
+        "life_consumed_pct": 22.83,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "fresh",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 4,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 88.78,
+        "spoil_eta_hours": 9.14,
+        "life_consumed_pct": 30.44,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "fresh",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 5,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 79.07,
+        "spoil_eta_hours": 8.14,
+        "life_consumed_pct": 38.05,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "aging",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 6,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 69.35,
+        "spoil_eta_hours": 7.14,
+        "life_consumed_pct": 45.66,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "aging",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 7,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 59.64,
+        "spoil_eta_hours": 6.14,
+        "life_consumed_pct": 53.27,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "aging",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 8,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 49.92,
+        "spoil_eta_hours": 5.14,
+        "life_consumed_pct": 60.89,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "aging",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 9,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 40.21,
+        "spoil_eta_hours": 4.14,
+        "life_consumed_pct": 68.5,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "critical",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "InTransit"
+    },
+    {
+      "seq": 10,
+      "snapshot": {
+        "commodity": "Alphonso Mango",
+        "rvh_hours": 30.5,
+        "spoil_eta_hours": 3.14,
+        "life_consumed_pct": 76.11,
+        "temp_c": 32.0,
+        "humidity_pct": 88.0,
+        "ethylene_ppm": 5.0,
+        "decay_rate_mult": 20.09,
+        "health": "critical",
+        "time_to_distress_hours": 0.08
+      },
+      "batch_status": "DistressedLiquidation"
+    }
+  ],
+  "auction_id": "F-78D2DFB7",
+  "negative_telemetry": {
+    "replay": {
+      "error": "attestation_failed",
+      "reason": "replay:seq=10<=prev=10"
+    },
+    "bad_signature": {
+      "error": "attestation_failed",
+      "reason": "bad_signature"
+    }
+  },
+  "reservation": {
+    "status": "awaiting_confirmation",
+    "mode": "simulated",
+    "confirmation_deadline": "2026-10-23T09:59:04.479097Z"
+  },
+  "confirmation": {
+    "status": "won",
+    "mode": "simulated",
+    "settlement": {
+      "commodity": "Alphonso Mango",
+      "weight_kg": 1000.0,
+      "contract_value_inr": 120000.0,
+      "wholesale_baseline_inr_per_kg": 120,
+      "expected_revenue_inr": 120000.0,
+      "salvage_revenue_inr": 78000.0,
+      "shortfall_inr": 42000.0,
+      "insurance_cover_cap_inr": 32400.0,
+      "insurance_payout_inr": 30780.0,
+      "logistics_penalty_inr": 15396.45,
+      "farmer_floor_topup_inr": 0.0,
+      "farmer_total_payout_inr": 108780.0,
+      "farmer_recovery_pct": 90.65,
+      "buyer_paid_inr_per_kg": 78.0,
+      "buyer_savings_pct": 35.0,
+      "abuse_factor": 1.078,
+      "computed_at": "2026-10-23T09:57:44.560373",
+      "oracle_version": "1.0.0",
+      "author": "Praveen Sudireddy"
+    }
+  },
+  "duplicate_confirmation_status": 409,
+  "settlement": {
+    "buyer_id": "B-BLR",
+    "id": "S-D1E91BBE",
+    "batch_id": "B-029AA2F4",
+    "auction_id": "F-78D2DFB7",
+    "kg_cleared": 1000.0,
+    "price_inr_per_kg": 78.0,
+    "salvage_revenue_inr": 78000.0,
+    "insurance_payout_inr": 30780.0,
+    "logistics_penalty_inr": 15396.45,
+    "farmer_total_payout_inr": 108780.0,
+    "farmer_recovery_pct": 90.65,
+    "buyer_savings_pct": 35.0,
+    "settled_at": "2026-10-23T09:57:44.564185"
+  },
+  "page_errors": [],
+  "duration_seconds": 180.0154230170001
+}

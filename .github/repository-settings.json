@@ -1,0 +1,22 @@
+{
+  "repository": "joyboyzz/Aether-Grid",
+  "description": "Independent cold-chain software project: signed telemetry, buyer eligibility, operator-reviewed simulated settlement, thermal routing and recovery tests.",
+  "topics": [
+    "cold-chain",
+    "aspnet-core",
+    "react",
+    "typescript",
+    "python",
+    "sqlite",
+    "simulation",
+    "routing",
+    "software-engineering",
+    "portfolio-project",
+    "fault-tolerance"
+  ],
+  "social_preview_file": "assets/github/social-preview.png",
+  "social_preview_note": "Upload manually in repository Settings > General > Social preview; the image is prepared, not claimed configured.",
+  "visibility": "public \u2014 explicitly approved by the repository owner",
+  "license": "Apache-2.0 \u2014 explicitly selected by the author",
+  "ci": "workflow supplied; local test evidence is not represented as an executed GitHub Actions run"
+}

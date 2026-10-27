@@ -1,0 +1,16 @@
+lot_id,source,split,temperature_c,observed_shelf_hours,shelf_reference_hours
+SYNTHETIC-Dairy (Peda)-0,synthetic,train,5,46.81143807008756,48
+SYNTHETIC-Dairy (Peda)-1,synthetic,train,12,19.659276489599797,48
+SYNTHETIC-Dairy (Peda)-2,synthetic,train,20,7.365258988553588,48
+SYNTHETIC-Dairy (Peda)-3,synthetic,train,28,2.744081334828153,48
+SYNTHETIC-Dairy (Peda)-4,synthetic,train,35,1.1068570701905374,48
+SYNTHETIC-Dairy (Peda)-5,synthetic,train,5,47.473301921174574,48
+SYNTHETIC-Dairy (Peda)-6,synthetic,train,12,19.439102830904567,48
+SYNTHETIC-Dairy (Peda)-7,synthetic,train,20,7.501643457351157,48
+SYNTHETIC-Dairy (Peda)-8,synthetic,train,28,2.675179163866886,48
+SYNTHETIC-Dairy (Peda)-9,synthetic,train,35,1.0913801072281997,48
+SYNTHETIC-Dairy (Peda)-10,synthetic,holdout,5,47.97571810405593,48
+SYNTHETIC-Dairy (Peda)-11,synthetic,holdout,12,20.298445557771974,48
+SYNTHETIC-Dairy (Peda)-12,synthetic,holdout,20,7.162041619102487,48
+SYNTHETIC-Dairy (Peda)-13,synthetic,holdout,28,2.6178654559420726,48
+SYNTHETIC-Dairy (Peda)-14,synthetic,holdout,35,1.1191815508054213,48

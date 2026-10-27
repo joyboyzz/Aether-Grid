@@ -1,0 +1,148 @@
+[
+  {
+    "path": ".v4-private/test.db",
+    "tables": [
+      "schema_version",
+      "documents",
+      "outbox",
+      "sqlite_sequence"
+    ],
+    "documents_rows": 40
+  },
+  {
+    "path": ".v3-private/backup.db",
+    "tables": [
+      "schema_version",
+      "documents",
+      "outbox",
+      "sqlite_sequence"
+    ],
+    "documents_rows": 29
+  },
+  {
+    "path": ".v3-private/test.db",
+    "tables": [
+      "schema_version",
+      "documents",
+      "outbox",
+      "sqlite_sequence"
+    ],
+    "documents_rows": 30
+  },
+  {
+    "path": "verification/final_demo.db",
+    "tables": [
+      "farmers",
+      "logistics_carriers",
+      "registered_buyers",
+      "flash_auctions",
+      "auction_bids",
+      "route_nodes",
+      "trucks",
+      "buyer_authorizations",
+      "auction_controls",
+      "route_edges",
+      "cargo_batches",
+      "telemetry_samples",
+      "cargo_events",
+      "settlements",
+      "insurance_policies"
+    ],
+    "cargo_batches_rows": 2,
+    "settlements_rows": 1,
+    "trucks_rows": 2
+  },
+  {
+    "path": "verification/demo.db",
+    "tables": [
+      "farmers",
+      "logistics_carriers",
+      "registered_buyers",
+      "flash_auctions",
+      "auction_bids",
+      "route_nodes",
+      "trucks",
+      "buyer_authorizations",
+      "auction_controls",
+      "route_edges",
+      "cargo_batches",
+      "telemetry_samples",
+      "cargo_events",
+      "settlements",
+      "insurance_policies"
+    ],
+    "cargo_batches_rows": 3,
+    "settlements_rows": 2,
+    "trucks_rows": 3
+  },
+  {
+    "path": ".acceptance-private/reference/python.db",
+    "tables": [
+      "farmers",
+      "logistics_carriers",
+      "registered_buyers",
+      "telemetry_checkpoints",
+      "telemetry_baselines",
+      "receiver_cursors",
+      "delivery_confirmations",
+      "external_intents",
+      "provider_events",
+      "flash_auctions",
+      "auction_bids",
+      "route_nodes",
+      "trucks",
+      "buyer_authorizations",
+      "auction_controls",
+      "route_edges",
+      "cargo_batches",
+      "telemetry_samples",
+      "cargo_events",
+      "settlements",
+      "insurance_policies"
+    ],
+    "cargo_batches_rows": 1,
+    "settlements_rows": 0,
+    "trucks_rows": 1
+  },
+  {
+    "path": ".acceptance-private/native/test.db",
+    "tables": [
+      "schema_version",
+      "documents",
+      "outbox",
+      "sqlite_sequence"
+    ],
+    "documents_rows": 40
+  },
+  {
+    "path": ".acceptance-private/ui/ui.db",
+    "tables": [
+      "schema_version",
+      "documents",
+      "outbox",
+      "sqlite_sequence"
+    ],
+    "documents_rows": 20
+  },
+  {
+    "path": "backend/data/aethergrid.db",
+    "tables": [
+      "farmers",
+      "logistics_carriers",
+      "registered_buyers",
+      "flash_auctions",
+      "auction_bids",
+      "route_nodes",
+      "trucks",
+      "route_edges",
+      "cargo_batches",
+      "telemetry_samples",
+      "cargo_events",
+      "settlements",
+      "insurance_policies"
+    ],
+    "cargo_batches_rows": 36,
+    "settlements_rows": 16,
+    "trucks_rows": 36
+  }
+]

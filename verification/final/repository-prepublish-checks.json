@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "staged_files": 305,
+  "python_sources_parsed": 66,
+  "sole_markdown": [
+    "README.md"
+  ],
+  "readme_local_links_valid": true,
+  "checks": "Known credential patterns and prohibited staged private/runtime files; not a guarantee against all secrets",
+  "detected_issues": [],
+  "license": "Apache-2.0 explicitly selected by owner",
+  "public_visibility": "Explicit owner approval; pending final publication",
+  "runtime_tests": "Existing recorded acceptance evidence retained; no new full runtime rerun in this presentation-only publishing pass"
+}

@@ -1,0 +1,16 @@
+lot_id,source,split,temperature_c,observed_shelf_hours,shelf_reference_hours
+SYNTHETIC-Leafy Greens (Palak)-0,synthetic,train,5,108.40347228870364,108
+SYNTHETIC-Leafy Greens (Palak)-1,synthetic,train,12,50.46514811555986,108
+SYNTHETIC-Leafy Greens (Palak)-2,synthetic,train,20,20.533855863232645,108
+SYNTHETIC-Leafy Greens (Palak)-3,synthetic,train,28,8.467833242392615,108
+SYNTHETIC-Leafy Greens (Palak)-4,synthetic,train,35,3.9372821874388335,108
+SYNTHETIC-Leafy Greens (Palak)-5,synthetic,train,5,108.30887637150053,108
+SYNTHETIC-Leafy Greens (Palak)-6,synthetic,train,12,48.989872630702436,108
+SYNTHETIC-Leafy Greens (Palak)-7,synthetic,train,20,21.118887599316597,108
+SYNTHETIC-Leafy Greens (Palak)-8,synthetic,train,28,8.604513609377197,108
+SYNTHETIC-Leafy Greens (Palak)-9,synthetic,train,35,4.063637901495881,108
+SYNTHETIC-Leafy Greens (Palak)-10,synthetic,holdout,5,107.43443589806239,108
+SYNTHETIC-Leafy Greens (Palak)-11,synthetic,holdout,12,50.224585933688495,108
+SYNTHETIC-Leafy Greens (Palak)-12,synthetic,holdout,20,20.487249646003338,108
+SYNTHETIC-Leafy Greens (Palak)-13,synthetic,holdout,28,8.787330867546276,108
+SYNTHETIC-Leafy Greens (Palak)-14,synthetic,holdout,35,4.090218010333981,108

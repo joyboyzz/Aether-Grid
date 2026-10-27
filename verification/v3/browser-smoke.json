@@ -1,0 +1,37 @@
+{
+  "portals": [
+    {
+      "route": "/",
+      "status": 200,
+      "body_chars": 2687,
+      "errors": []
+    },
+    {
+      "route": "/buyer",
+      "status": 200,
+      "body_chars": 630,
+      "errors": []
+    },
+    {
+      "route": "/analytics",
+      "status": 200,
+      "body_chars": 1034,
+      "errors": []
+    },
+    {
+      "route": "/carrier",
+      "status": 200,
+      "body_chars": 822,
+      "errors": []
+    },
+    {
+      "route": "/insurance",
+      "status": 200,
+      "body_chars": 1657,
+      "errors": []
+    }
+  ],
+  "page_errors": [],
+  "failed_api": [],
+  "passed": true
+}

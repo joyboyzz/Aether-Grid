@@ -1,0 +1,24 @@
+services:
+  aethergrid:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    ports:
+      - '127.0.0.1:8080:8080'
+    environment:
+      AETHER_PRODUCTION: 'true'
+      AETHER_TELEMETRY_ROOT: ${AETHER_TELEMETRY_ROOT:?supply a random signing root}
+      AETHER_CALLBACK_SECRET: ${AETHER_CALLBACK_SECRET:?supply a random callback secret}
+      AETHER_USERS_FILE: /run/private/users.json
+      AETHER_SIGNING_KEYS_FILE: /run/private/keyring.json
+    volumes:
+      - ../private/data:/data
+      - ../private/secrets:/run/private:ro
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 128
+    mem_limit: 512m
+    restart: unless-stopped

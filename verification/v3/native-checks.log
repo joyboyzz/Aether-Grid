@@ -1,0 +1,65 @@
+{
+  "scope": "synthetic native .NET HTTP integration; no hardware, physical results or real money",
+  "checks": [
+    "health explicitly software-only",
+    "opaque HttpOnly cookie",
+    "Python-signed v2 packet accepted by C#",
+    "distress opens auction",
+    "concurrent bid single winner",
+    "single capacity reservation",
+    "manual confirm settles once",
+    "explicit payout baseline",
+    "receipt capacity released once",
+    "integer paise obligation",
+    "callback reconciled and duplicate idempotent",
+    "five-portal read contracts respond",
+    "device read scope blocked",
+    "auditor read-only and revocation immediate",
+    "SSE authorized stream opens",
+    "SSE durable replay advances cursor",
+    "expiry fixture reserved capacity",
+    "expired confirmation releases reservation",
+    "fallback auction persisted",
+    "logout invalidates server-side session"
+  ],
+  "count": 20,
+  "passed": true
+}
+{
+  "portals": [
+    {
+      "route": "/",
+      "status": 200,
+      "body_chars": 2687,
+      "errors": []
+    },
+    {
+      "route": "/buyer",
+      "status": 200,
+      "body_chars": 630,
+      "errors": []
+    },
+    {
+      "route": "/analytics",
+      "status": 200,
+      "body_chars": 1034,
+      "errors": []
+    },
+    {
+      "route": "/carrier",
+      "status": 200,
+      "body_chars": 822,
+      "errors": []
+    },
+    {
+      "route": "/insurance",
+      "status": 200,
+      "body_chars": 1657,
+      "errors": []
+    }
+  ],
+  "page_errors": [],
+  "failed_api": [],
+  "passed": true
+}
+PASS: native integration, fresh-process replay defense, and independent backup restore

@@ -1,0 +1,650 @@
+{
+  "scope": "native .NET software follow-on; hardware excluded; see delivery report for remaining gates",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 90,
+      "sha256": "032f185345586f8d26b78e0b806e291edc3a49f45dbab961c205436c106ca9b7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 97,
+      "sha256": "3ae278957a9b98312be2bfe8d6a0001f7fa28e15b5864895418c2c495123ef2c"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 8643,
+      "sha256": "a90cb9d6a43da6ac83c4e796f202b340b90a594e76c097004455728f5ce7103f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7799,
+      "sha256": "00d8162b07f0441dde76bb290f469eb09823834c874f8c57918840266c8786ae"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/algorithms/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/algorithms/bio_timer.py",
+      "bytes": 8136,
+      "sha256": "42acc58fa8ffb07c696924c152b07346a160490589170b82128ed6ae7dd564b6"
+    },
+    {
+      "path": "backend/app/algorithms/router.py",
+      "bytes": 10410,
+      "sha256": "5ed237469784191c3ba898c640d77afc796152454dd280ae43bb8838d278386b"
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/api/operations.py",
+      "bytes": 7462,
+      "sha256": "a5a46b0c96380cbbccc0086632b08210f32c4c5fc4d38fa6a54f1da53c3d2522"
+    },
+    {
+      "path": "backend/app/api/schemas.py",
+      "bytes": 4703,
+      "sha256": "18e837329026ed2311c469935bb098d155cc9a100bde10358e789ca3d113ec5a"
+    },
+    {
+      "path": "backend/app/calibration/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/calibration/fit_q10.py",
+      "bytes": 2844,
+      "sha256": "e16c0702ca2167a105211ef538f6321c37342ca0b0d2b5b671e626ae850dbf29"
+    },
+    {
+      "path": "backend/app/core/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/core/access.py",
+      "bytes": 5504,
+      "sha256": "78644357c8ddeb5a99353a8dacc6f843f109721b359c9c22c6a29e07a27c908b"
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "bytes": 4916,
+      "sha256": "db8708a9bc781487dd21412a6c5b535e101dac6dc847e2330bfa9c73977c48d2"
+    },
+    {
+      "path": "backend/app/core/database.py",
+      "bytes": 15826,
+      "sha256": "5367b37552ef6cd70a2946fdc359a5d6df9e235d3037366cb576c501555bc1f2"
+    },
+    {
+      "path": "backend/app/core/event_bus.py",
+      "bytes": 1180,
+      "sha256": "e502ac2f4d006af4dd92b2afc74303802c409887cdbe06c30b741bac73fdd0ff"
+    },
+    {
+      "path": "backend/app/core/security.py",
+      "bytes": 4878,
+      "sha256": "48475c045cf64a9eb528dd2381ee9c0707aa3bee4776b3c35d073c0510ef5c6c"
+    },
+    {
+      "path": "backend/app/main.py",
+      "bytes": 46918,
+      "sha256": "e2a64ccff9c6164492dab6d346643ae16bbbaf9d0c436c3cff6510bb9cb57157"
+    },
+    {
+      "path": "backend/app/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/services/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/services/auction_lifecycle.py",
+      "bytes": 4358,
+      "sha256": "3dfa7a041b3c145d35183bfffca1f7f45d609f35412a5db6abfde3afe777d6d3"
+    },
+    {
+      "path": "backend/app/services/buyer_eligibility.py",
+      "bytes": 1719,
+      "sha256": "58b2f0f7e6d64465efdcc719129c692a0fc4bdf24b414590068dcf2b3814af09"
+    },
+    {
+      "path": "backend/app/services/external_rails.py",
+      "bytes": 1069,
+      "sha256": "dfec1e6250e491fbc15f8ea7bdeb21125277b4b7c69b1fe772783c3dac0c6708"
+    },
+    {
+      "path": "backend/app/services/insurance_oracle.py",
+      "bytes": 5186,
+      "sha256": "ac70bd9c6072b332234020226d5ccd902d3acdbc8c854f03b84730f3d5c36249"
+    },
+    {
+      "path": "backend/app/simulation/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/simulation/auto_bid_bot.py",
+      "bytes": 2524,
+      "sha256": "e7e6b34315d4c8e516366f49dca30384bc0202fab692915e8a9f26da79a12acd"
+    },
+    {
+      "path": "backend/app/simulation/fleet_replay.py",
+      "bytes": 9462,
+      "sha256": "c41c6e4ac2548556d2dbbbb720f1660bc9124d8438748402e553cd64c727ed6a"
+    },
+    {
+      "path": "backend/app/simulation/monte_carlo.py",
+      "bytes": 4130,
+      "sha256": "90d126b695b1938b7985b96afb591fbc0641b2e81fdb8dafd869941a7abb2e1e"
+    },
+    {
+      "path": "backend/app/simulation/seed_data.py",
+      "bytes": 11671,
+      "sha256": "e6300ca1c604602ef07520437c5fe0b404c886e12fa73924fb337626d164a8fd"
+    },
+    {
+      "path": "backend/app/simulation/simulator.py",
+      "bytes": 11976,
+      "sha256": "b6c5322d4491b7925ca9da25e5a89ef1676ae3d12faec12e3bdf46ff806b6697"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "bytes": 269,
+      "sha256": "ccab08c4a880cd138e32f6eb2f2eed23a6f6e6463ca84a8e99de44f5a427dc6d"
+    },
+    {
+      "path": "backend/tests/test_bid_flow.py",
+      "bytes": 6358,
+      "sha256": "eec1859f190f4477283209fed6a8ec11b360e5ea5ea11c849e418b66e909d06c"
+    },
+    {
+      "path": "backend/tests/test_concurrency.py",
+      "bytes": 4839,
+      "sha256": "f43c5ae7680c03b1d4d091b87b36fd84704b76ecb47694b160bdd6f38ce25a8d"
+    },
+    {
+      "path": "backend/tests/test_eligibility.py",
+      "bytes": 1504,
+      "sha256": "237011fc58aec55d12a52cbd418b56d9f3d1cd716082fe6815205e194403628c"
+    },
+    {
+      "path": "backend/tests/test_oracle_security.py",
+      "bytes": 3326,
+      "sha256": "dc923c2377f50d271938640e28460425ef9ffbb5b2859c02c662ac338da954b5"
+    },
+    {
+      "path": "backend/tests/test_v2_access.py",
+      "bytes": 3382,
+      "sha256": "f40068540e87aa4fc8e697aff3f7eaa252e96459da5cf4ec204a9e207c8a476c"
+    },
+    {
+      "path": "backend/tests/test_v2_backup.py",
+      "bytes": 783,
+      "sha256": "41b2836fa16a0dad31052f14268cb0a5b62eb99b7111bc535fb18adadc6432e1"
+    },
+    {
+      "path": "backend/tests/test_v2_calibration.py",
+      "bytes": 925,
+      "sha256": "8a2a72377b655dff59b58cdd3def9f4b6555a65aee7f6b2151fdecdab1010271"
+    },
+    {
+      "path": "backend/tests/test_v2_operations.py",
+      "bytes": 5046,
+      "sha256": "c7e02d5068dde07e0590d27eb2ce517233cfed0b73359bfd928e70338434d466"
+    },
+    {
+      "path": "backend/tests/test_v2_restart.py",
+      "bytes": 6474,
+      "sha256": "1792fccd11d501017015be644c402cbff00dc1da98e2e7da4857f985cfc1dd68"
+    },
+    {
+      "path": "deployment/Dockerfile",
+      "bytes": 615,
+      "sha256": "e5404f1c9aee8e0054778200e2fc750f3c93622cb6bbaee79173b18178052d13"
+    },
+    {
+      "path": "dotnet/AetherGrid.Api/AetherGrid.Api.csproj",
+      "bytes": 281,
+      "sha256": "c9ddbb68a7ffa75124f301fe433918633ece62ab10c46b67ca54e46b522f1f57"
+    },
+    {
+      "path": "dotnet/AetherGrid.Api/Program.cs",
+      "bytes": 1921,
+      "sha256": "0db6ff86c1a0d66a45c4e5e3f96eceef5ef778d686050ea6b5b3448da923270a"
+    },
+    {
+      "path": "dotnet/AetherGrid.Core/AetherGrid.Core.csproj",
+      "bytes": 183,
+      "sha256": "bb495f5e098a066f1eb8bd079e45ea8dacf3c74182286968a664e56fb8267818"
+    },
+    {
+      "path": "dotnet/AetherGrid.Core/BioTimer.cs",
+      "bytes": 3439,
+      "sha256": "6b7dc67fc04e3936db4c1adc0962c36e26b363a178445edc719d5094652c4486"
+    },
+    {
+      "path": "dotnet/AetherGrid.Core/Eligibility.cs",
+      "bytes": 1369,
+      "sha256": "52c8662f527c7c20371616be923e8c77bb5105d3066dd77858a1ffaf25b6ab39"
+    },
+    {
+      "path": "dotnet/AetherGrid.Core/Settlement.cs",
+      "bytes": 2046,
+      "sha256": "280af2c92404cb002a9ff3c5cb9a1246031c7dd152cb2017efdfe44b2fbba66e"
+    },
+    {
+      "path": "dotnet/AetherGrid.Parity/AetherGrid.Parity.csproj",
+      "bytes": 305,
+      "sha256": "4829db83a4ede9385df9a7ce2f17139706b879da7b21e69516180ab13ef0cd8c"
+    },
+    {
+      "path": "dotnet/AetherGrid.Parity/Program.cs",
+      "bytes": 2987,
+      "sha256": "8188a39b7b7d44907dea8ad77e70a74f0f67c675c3ce020d6b1dbb21bdae1553"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/AetherGrid.Server.csproj",
+      "bytes": 508,
+      "sha256": "4751b101c2e81a8a4f43d2bcf0f202957694998b80cc00cc6ee8f3ff92d47149"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/Program.cs",
+      "bytes": 9875,
+      "sha256": "451bb77f9850ac09942e00e09651eaababb833096befa79f3df914b62cfb7af8"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/Providers.cs",
+      "bytes": 3548,
+      "sha256": "3d35485957b06cebeca53327be7f6a59f2df569b14eaaff0885ad9fea945b24c"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/Reporting.cs",
+      "bytes": 2369,
+      "sha256": "af7a4469e2e362ed71bf4677876f8a36f4be60f62c4774aec5615beb7c95c0df"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/Routing.cs",
+      "bytes": 3004,
+      "sha256": "c9c1c943624b6c4a1841db78c0f6046bb77b968809fb58a772be6cc3fc9253af"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/Security.cs",
+      "bytes": 5490,
+      "sha256": "1a46562f88bfc0c2aae2756dd29b8ac8c9e7cd58fedf7f26bdf4eecce1ce5346"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/Store.cs",
+      "bytes": 4764,
+      "sha256": "ea374b782353db3b0a5759cd6b0f2a9899f5e5028d227f7d2c184bb48376794e"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/Workflow.cs",
+      "bytes": 18421,
+      "sha256": "a2b82fe4929ab17c5d14701364772457bb5fef749fc9f983af0cf9a862aec00d"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/catalog.json",
+      "bytes": 9605,
+      "sha256": "5daef82a92ae2ec3d62654ec584a5ff2bd98e1a3c6bc3b52c11056d3b52bb67a"
+    },
+    {
+      "path": "dotnet/AetherGrid.Server/packages.lock.json",
+      "bytes": 1957,
+      "sha256": "c3bbe76ae28cb1b903336cb1b58065b424925f5569b9507be8831f7f2ac519ae"
+    },
+    {
+      "path": "frontend/index.html",
+      "bytes": 881,
+      "sha256": "e6036482058dfb07c475a44613ae5ac6a46e073cd24682c68ee44ff1e7838294"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "bytes": 110322,
+      "sha256": "04d42d69c6b5574db675ad7f3c2ff95d46aad63d9124a40a5dd0551735fa19ee"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 756,
+      "sha256": "ad934b5b6b79973c237329d5aad85eae3aca5a3f5772c3af309e50f65aad4791"
+    },
+    {
+      "path": "frontend/postcss.config.js",
+      "bytes": 67,
+      "sha256": "08910ce1d5cd87d2167e9c78b77262bf985b3f07dc5037ff745ecd6a759fd0c0"
+    },
+    {
+      "path": "frontend/src/Analytics.tsx",
+      "bytes": 10871,
+      "sha256": "5a1871cd3eaf98699201b3c9845ee0f789e5597033c405839a571261a3600f10"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "bytes": 14843,
+      "sha256": "6bcf9009cfe02b22c503d3e728b6ec371102f30965de64a5e0c20fd103b4cbfd"
+    },
+    {
+      "path": "frontend/src/AuthGate.tsx",
+      "bytes": 2239,
+      "sha256": "4156196fcaf5653c3cad3d8e9bf52e8235a3102aa4c0af626c0c99ffbcc5ae6f"
+    },
+    {
+      "path": "frontend/src/BuyerPortal.tsx",
+      "bytes": 16183,
+      "sha256": "8612554eb43a77c0d610b872c67e503905a4dec913b71d5341c0b2323452ba28"
+    },
+    {
+      "path": "frontend/src/CarrierPortal.tsx",
+      "bytes": 5294,
+      "sha256": "a7755f22701ac03f9fbdecf7dd5cc46c9ee75485f0b5f7a2bdb0a59916575cff"
+    },
+    {
+      "path": "frontend/src/InsurancePortal.tsx",
+      "bytes": 8233,
+      "sha256": "687a015b3d495a62fbeff156958a742d430db4ca0399180e185447a80d708925"
+    },
+    {
+      "path": "frontend/src/components/AuctionPanel.tsx",
+      "bytes": 6751,
+      "sha256": "fd1ddc395032e17618e0b45284b242e727e0192731349a3cb18f47f5823d0a53"
+    },
+    {
+      "path": "frontend/src/components/BatchDetail.tsx",
+      "bytes": 6353,
+      "sha256": "e8f3c4b9a63f5ba054bb8dd0c1d0c343cb6a37a2893173923c4071b6b707e67e"
+    },
+    {
+      "path": "frontend/src/components/EventFeed.tsx",
+      "bytes": 3047,
+      "sha256": "928519fc8956d8fe6e651afeaf3a4134d22700baaf13bbfc80bcf4442c17de68"
+    },
+    {
+      "path": "frontend/src/components/FleetList.tsx",
+      "bytes": 3660,
+      "sha256": "6a9c84620d120d395c01e468d1714a3ab351f6a76db39fbbbf3d3ec9c4e80ac8"
+    },
+    {
+      "path": "frontend/src/components/KPIBar.tsx",
+      "bytes": 2181,
+      "sha256": "cc4ba061df8e753bdab5ea96c104d238c7332b4759fec6da9da1d3febef9be2d"
+    },
+    {
+      "path": "frontend/src/components/MapView.tsx",
+      "bytes": 6509,
+      "sha256": "b4d8055c8c28b33ac435f3ceca16790c261dd7db2eb5de0b0bd6eda3d5975a6b"
+    },
+    {
+      "path": "frontend/src/components/SettlementsPanel.tsx",
+      "bytes": 4974,
+      "sha256": "fcece5e810f5214405a269548154670ccb130f8b020810f3acd584b24833078b"
+    },
+    {
+      "path": "frontend/src/components/StatusBar.tsx",
+      "bytes": 1714,
+      "sha256": "9cfc686c2186cfd5131a3863dbb5c569f6e9faf1efcc1e92a93e24013ec70fea"
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "bytes": 2495,
+      "sha256": "7af3da0abef5755b2551f1d551359560e37ccbdb60b93944e40af7bf382fe5e8"
+    },
+    {
+      "path": "frontend/src/lib/auth.ts",
+      "bytes": 872,
+      "sha256": "63eb0c8f4733012d132681de612e1aded6fdb9b6c32fb4d60e2f4df78a74e677"
+    },
+    {
+      "path": "frontend/src/lib/socket.ts",
+      "bytes": 1191,
+      "sha256": "652260f8505fddbd2fb58c19df916fa4ee333e23264eb69b9b9d8c74acd5612d"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "bytes": 1164,
+      "sha256": "a510228faae09ca8e4c814ef6286561a917f3a9dce19949297ba606e90685057"
+    },
+    {
+      "path": "frontend/src/styles/index.css",
+      "bytes": 1720,
+      "sha256": "a18dafed07e66c89b21abcd84e3bcacbcd0b738c36e98073e3e2d28b29c4ff92"
+    },
+    {
+      "path": "frontend/src/types/index.ts",
+      "bytes": 2996,
+      "sha256": "d14d5867d2cedb69acc8f835e8457663429ab68f732587497a7bcffb481be96f"
+    },
+    {
+      "path": "frontend/tailwind.config.js",
+      "bytes": 725,
+      "sha256": "11ce80741e81aff752c258543cc485662a2af415e5b07a07990903fd644fc533"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "bytes": 529,
+      "sha256": "c43e270344551a9dff8f95b9065096d57b97730f2052b4b91d1362b7222c89a0"
+    },
+    {
+      "path": "frontend/tsconfig.node.json",
+      "bytes": 171,
+      "sha256": "257c78f9d6f1777a113b0f1612de599b7f3ec69f9fd967aa46e290f656c8fdb9"
+    },
+    {
+      "path": "frontend/vite.config.d.ts",
+      "bytes": 76,
+      "sha256": "4b96dd19fd2949d28ce80e913412b0026dc421e5bf6c31d87c7b5eb11b5753b4"
+    },
+    {
+      "path": "frontend/vite.config.js",
+      "bytes": 346,
+      "sha256": "010e1d31adb7adab7b9bf115a4f819973c3cab06775e1fa367b2098842683baa"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "bytes": 342,
+      "sha256": "12d0f8624bce3f27b59cef5f6daa2fc5a9764cb1ed6395d1d24caaa4b85d0698"
+    },
+    {
+      "path": "pilot/PILOT_RUNBOOK.md",
+      "bytes": 5277,
+      "sha256": "b0c1256d4705d26f8f2a961768a86e53318593eebaa6bf08118d83cb98954eec"
+    },
+    {
+      "path": "pilot/calibration_template.csv",
+      "bytes": 77,
+      "sha256": "7b8c11b62a419388e01626c276e2dabc49355156f340a3393904d8ceda6f132a"
+    },
+    {
+      "path": "scripts/backup_sqlite.py",
+      "bytes": 1054,
+      "sha256": "fadc84fbfef2873609d9b5d25023628b581d03e4e7d2f9d3672f931ea93fe913"
+    },
+    {
+      "path": "scripts/browser_smoke.py",
+      "bytes": 1358,
+      "sha256": "34bbf790c2375e18095bc1fc0bd1997010864cdfd0c029c9bdd72463ac321657"
+    },
+    {
+      "path": "scripts/check_dotnet_api.py",
+      "bytes": 1948,
+      "sha256": "4eff9d359734cb65b1fa3e24c6e55202f9735f3f514aaa41b0cf1819c4b61d3f"
+    },
+    {
+      "path": "scripts/check_pdfs.py",
+      "bytes": 985,
+      "sha256": "bfec2d41d4130b81a5563e63933a5567913b4161cdce74e1c5d131efa9bedcaf"
+    },
+    {
+      "path": "scripts/create_native_user.py",
+      "bytes": 1075,
+      "sha256": "1c5a4fb6491d5d04d17f3b257a4baa9146a1ef556a49517751217e3a5741d152"
+    },
+    {
+      "path": "scripts/dotnet-install.sh",
+      "bytes": 63563,
+      "sha256": "082f7685e156738a1b2e2ed8381a621870d4ce8e8c59278034556f05c186eb2e"
+    },
+    {
+      "path": "scripts/encode_recording.py",
+      "bytes": 866,
+      "sha256": "f6d30a8e884ae200c15040705e22778564d0bfd2187c4870d85664441a548327"
+    },
+    {
+      "path": "scripts/generate_parity.py",
+      "bytes": 2904,
+      "sha256": "a3e1e1dfc5a03ca47d4dbd0c87753514f345be08bb83999893db5840dd128973"
+    },
+    {
+      "path": "scripts/http_checks.py",
+      "bytes": 2873,
+      "sha256": "7d5a6767cf0b9101f4c764aaf94ee25216f01a7ec0e2319a5cfd25919d34c7fb"
+    },
+    {
+      "path": "scripts/record_walkthrough.py",
+      "bytes": 9119,
+      "sha256": "cb2f47032c3d1a25ca76bd4c5326087a05e20f8ade55195410db28a708268a42"
+    },
+    {
+      "path": "scripts/render_qa.py",
+      "bytes": 953,
+      "sha256": "7e3308cb9704964b255e3a96a0bae71eda317d6c0e75137f9d0ae5ff2cc77049"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 129,
+      "sha256": "2b6ad93ffd2dff6b2ba9a664dd8619d14b306eb3cf344c2cd6ca465e0c22ff2a"
+    },
+    {
+      "path": "scripts/run_demo.sh",
+      "bytes": 518,
+      "sha256": "5520b9feabe9b9d831466b71bdd95ee1af5a7e8089e38d680c4b8730b0f856e1"
+    },
+    {
+      "path": "scripts/run_native_checks.py",
+      "bytes": 4534,
+      "sha256": "a985366df991126342cfe55af5bb81cc45035426bd53a532eb3bd54a9ac91183"
+    },
+    {
+      "path": "scripts/run_tests.py",
+      "bytes": 729,
+      "sha256": "19bad4c79b3f20ddc8bcd8f03e6936524fb7d54e1f842290cb967bff2f061e91"
+    },
+    {
+      "path": "scripts/verify_native_browser.py",
+      "bytes": 1399,
+      "sha256": "c584625620ef4e74e68504b0b07887b80d7eee2bd1f571d7817159d844c534cd"
+    },
+    {
+      "path": "scripts/verify_native_server.py",
+      "bytes": 9277,
+      "sha256": "d6360c55376cebfeb4a01b18d1b68410d718653dc145006b7ae72d5bd69fa69f"
+    },
+    {
+      "path": "software_v2/DELIVERY_REPORT.md",
+      "bytes": 6461,
+      "sha256": "7f22610ff5cc8a454a0cf70baa14b9b0d3f73bd604d6b152b5a3d9b299eb7572"
+    },
+    {
+      "path": "software_v2/SECURITY_AND_OPERATIONS.md",
+      "bytes": 8158,
+      "sha256": "49b8cbc1e5e40d575d30da75da256d72558049a7727bf8885bcad8c09a1b8373"
+    },
+    {
+      "path": "software_v3/DELIVERY_REPORT.md",
+      "bytes": 5669,
+      "sha256": "41e9acf171cb45f58d5872c342ed905f43cce98e44e873a325853190bc22623d"
+    },
+    {
+      "path": "software_v3/RUN_NATIVE.md",
+      "bytes": 6626,
+      "sha256": "da9669b0e2d897fe3a74625d9125332ae7109136890d67fd95ea23ac7b7288c9"
+    },
+    {
+      "path": "verification/v2/parity_fixtures.json",
+      "bytes": 677115,
+      "sha256": "cd4dbc3a8a53e17e188e38ac574fd7b81aa9e684d6b061dcaae9bf8382d89b20"
+    },
+    {
+      "path": "verification/v3/browser-smoke.json",
+      "bytes": 603,
+      "sha256": "c1f93086ca89bbaeba7a83e8c8af94cf843308afbd151b0a8242ec1a6e264af5"
+    },
+    {
+      "path": "verification/v3/build.log",
+      "bytes": 314,
+      "sha256": "7a2cbcca01c2610d03740d74728b349d392b0414e4b01824199f365e5d16bdb8"
+    },
+    {
+      "path": "verification/v3/dotnet-parity.log",
+      "bytes": 93,
+      "sha256": "33693c06aee0906a6117d0f49c6fb5603b75e85ddeac77a413a820d66cfe4226"
+    },
+    {
+      "path": "verification/v3/frontend-build.log",
+      "bytes": 724,
+      "sha256": "9c35795876ca917a11a1d40b2c4db29037385239ea2d0ade3b086eaa1d9750ed"
+    },
+    {
+      "path": "verification/v3/http-integration.json",
+      "bytes": 927,
+      "sha256": "242dd6572fe1c7294bb033d18e511a014703b8defc98545e4db1b4a7d6999a78"
+    },
+    {
+      "path": "verification/v3/native-checks.log",
+      "bytes": 1619,
+      "sha256": "8ab244fd64a9759e82edf8665959f036d27a2154e048c5e11bc5c04f57e212ba"
+    },
+    {
+      "path": "verification/v3/portal-analytics.png",
+      "bytes": 128470,
+      "sha256": "cbb6609f2a20a9de0af48481ef8c3da6c782bb79edddfa30aae81a9c8be4b8be"
+    },
+    {
+      "path": "verification/v3/portal-buyer.png",
+      "bytes": 90249,
+      "sha256": "e67b7d507a8f4624daf4a547e10ad38e9f20de0cfb44d65f6c8052e265477f9f"
+    },
+    {
+      "path": "verification/v3/portal-carrier.png",
+      "bytes": 129009,
+      "sha256": "150927e55b73e225493a076e47c6affaf309feb17f0df42e006dcba4680954ca"
+    },
+    {
+      "path": "verification/v3/portal-insurance.png",
+      "bytes": 203063,
+      "sha256": "56a42cbb25ea5bdcd71e42d0e4af22d3c5e9f25eea13acb574e21c16ce8a47e4"
+    },
+    {
+      "path": "verification/v3/portal-operator.png",
+      "bytes": 310874,
+      "sha256": "2d7d4495b16e74cb71e38a3890212076899b0b592ca0090c5157d94178649068"
+    },
+    {
+      "path": "verification/v3/python-regression.json",
+      "bytes": 109,
+      "sha256": "7d339a58e11cf71bede780ff95ebf44cbcd00ac26203650133c224a83a205681"
+    },
+    {
+      "path": "verification/v3/python-regression.log",
+      "bytes": 5878,
+      "sha256": "728f155718d949d92e2e767aa5bb0c762944c52e997a5179cff5faa70aa0641b"
+    },
+    {
+      "path": "verification/v3/recovery.json",
+      "bytes": 412,
+      "sha256": "fa336048f80104a40a03887f3b4e4ac15309ce14175723218c5dee384a9407b1"
+    }
+  ]
+}

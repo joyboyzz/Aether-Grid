@@ -1,0 +1,430 @@
+{
+  "profiles": {
+    "Alphonso Mango": {
+      "shelf_hours_ref": 264,
+      "q10": 2.8,
+      "opt_temp_c": 12.0,
+      "max_safe_temp_c": 18.0,
+      "eth_sensitivity": 1.4,
+      "wholesale_price_inr_per_kg": 120,
+      "unit": "crate",
+      "crate_kg": 20
+    },
+    "Tomato": {
+      "shelf_hours_ref": 360,
+      "q10": 2.5,
+      "opt_temp_c": 10.0,
+      "max_safe_temp_c": 21.0,
+      "eth_sensitivity": 1.2,
+      "wholesale_price_inr_per_kg": 25,
+      "unit": "crate",
+      "crate_kg": 25
+    },
+    "Dairy (Peda)": {
+      "shelf_hours_ref": 48,
+      "q10": 3.5,
+      "opt_temp_c": 4.0,
+      "max_safe_temp_c": 10.0,
+      "eth_sensitivity": 1.0,
+      "wholesale_price_inr_per_kg": 180,
+      "unit": "box",
+      "crate_kg": 10
+    },
+    "Seafood (Pomfret)": {
+      "shelf_hours_ref": 84,
+      "q10": 3.2,
+      "opt_temp_c": 0.0,
+      "max_safe_temp_c": 4.4,
+      "eth_sensitivity": 1.0,
+      "wholesale_price_inr_per_kg": 420,
+      "unit": "tote",
+      "crate_kg": 30
+    },
+    "Leafy Greens (Palak)": {
+      "shelf_hours_ref": 108,
+      "q10": 3.0,
+      "opt_temp_c": 2.0,
+      "max_safe_temp_c": 12.0,
+      "eth_sensitivity": 1.3,
+      "wholesale_price_inr_per_kg": 32,
+      "unit": "crate",
+      "crate_kg": 15
+    },
+    "Banana (Yelakki)": {
+      "shelf_hours_ref": 288,
+      "q10": 2.6,
+      "opt_temp_c": 13.0,
+      "max_safe_temp_c": 20.0,
+      "eth_sensitivity": 1.8,
+      "wholesale_price_inr_per_kg": 45,
+      "unit": "crate",
+      "crate_kg": 20
+    },
+    "Poultry (Chicken)": {
+      "shelf_hours_ref": 96,
+      "q10": 3.4,
+      "opt_temp_c": 0.0,
+      "max_safe_temp_c": 4.4,
+      "eth_sensitivity": 1.0,
+      "wholesale_price_inr_per_kg": 190,
+      "unit": "tote",
+      "crate_kg": 25
+    }
+  },
+  "nodes": [
+    {
+      "id": "N-DEL",
+      "name": "Delhi (Azadpur Mandi)",
+      "lat": 28.7076,
+      "lng": 77.1689,
+      "kind": "origin",
+      "pop": 32000000
+    },
+    {
+      "id": "N-FBD",
+      "name": "Faridabad Toll",
+      "lat": 28.4089,
+      "lng": 77.3178,
+      "kind": "checkpoint"
+    },
+    {
+      "id": "N-AGR",
+      "name": "Agra",
+      "lat": 27.1767,
+      "lng": 78.0081,
+      "kind": "city",
+      "pop": 1600000
+    },
+    {
+      "id": "N-GWL",
+      "name": "Gwalior",
+      "lat": 26.2183,
+      "lng": 78.1828,
+      "kind": "city",
+      "pop": 1100000,
+      "cold": true
+    },
+    {
+      "id": "N-JHS",
+      "name": "Jhansi",
+      "lat": 25.4484,
+      "lng": 78.5685,
+      "kind": "city",
+      "pop": 500000
+    },
+    {
+      "id": "N-LAL",
+      "name": "Lalitpur",
+      "lat": 23.8314,
+      "lng": 78.7378,
+      "kind": "checkpoint"
+    },
+    {
+      "id": "N-SGR",
+      "name": "Sagar",
+      "lat": 23.8388,
+      "lng": 78.7367,
+      "kind": "checkpoint"
+    },
+    {
+      "id": "N-NGP",
+      "name": "Nagpur (Kalamna)",
+      "lat": 21.1739,
+      "lng": 79.0663,
+      "kind": "city",
+      "pop": 2900000,
+      "cold": true
+    },
+    {
+      "id": "N-WRD",
+      "name": "Wardha",
+      "lat": 20.7453,
+      "lng": 78.6022,
+      "kind": "checkpoint"
+    },
+    {
+      "id": "N-ADB",
+      "name": "Adilabad",
+      "lat": 19.664,
+      "lng": 78.532,
+      "kind": "city",
+      "pop": 120000
+    },
+    {
+      "id": "N-NZB",
+      "name": "Nizamabad",
+      "lat": 18.6725,
+      "lng": 78.105,
+      "kind": "city",
+      "pop": 310000
+    },
+    {
+      "id": "N-KMM",
+      "name": "Kamareddy",
+      "lat": 18.3195,
+      "lng": 78.3386,
+      "kind": "checkpoint"
+    },
+    {
+      "id": "N-HYD",
+      "name": "Hyderabad (Bowenpally)",
+      "lat": 17.48,
+      "lng": 78.48,
+      "kind": "city",
+      "pop": 10500000,
+      "cold": true
+    },
+    {
+      "id": "N-KRN",
+      "name": "Kurnool",
+      "lat": 15.8281,
+      "lng": 78.0373,
+      "kind": "city",
+      "pop": 480000
+    },
+    {
+      "id": "N-ATP",
+      "name": "Anantapur",
+      "lat": 14.6819,
+      "lng": 77.6006,
+      "kind": "city",
+      "pop": 370000
+    },
+    {
+      "id": "N-DBP",
+      "name": "Doddaballapur",
+      "lat": 13.6288,
+      "lng": 77.5917,
+      "kind": "checkpoint"
+    },
+    {
+      "id": "N-BLR",
+      "name": "Bengaluru (Yeshwanthpur)",
+      "lat": 13.0296,
+      "lng": 77.5457,
+      "kind": "destination",
+      "pop": 13600000,
+      "cold": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "E-000",
+      "corridor": "NH44",
+      "from_node": "N-DEL",
+      "to_node": "N-FBD",
+      "distance_km": 36.26,
+      "base_speed_kmh": 70,
+      "road_type": "nh",
+      "cellular_coverage_pct": 92,
+      "accident_risk": 0.01,
+      "notes": "Delhi-Agra expressway section"
+    },
+    {
+      "id": "E-001",
+      "corridor": "NH44",
+      "from_node": "N-FBD",
+      "to_node": "N-AGR",
+      "distance_km": 152.92,
+      "base_speed_kmh": 65,
+      "road_type": "nh",
+      "cellular_coverage_pct": 88,
+      "accident_risk": 0.02,
+      "notes": "Agra bypass"
+    },
+    {
+      "id": "E-002",
+      "corridor": "NH44",
+      "from_node": "N-AGR",
+      "to_node": "N-GWL",
+      "distance_km": 107.97,
+      "base_speed_kmh": 55,
+      "road_type": "nh",
+      "cellular_coverage_pct": 80,
+      "accident_risk": 0.03,
+      "notes": "Agra-Gwalior 2-lane"
+    },
+    {
+      "id": "E-003",
+      "corridor": "NH44",
+      "from_node": "N-GWL",
+      "to_node": "N-JHS",
+      "distance_km": 93.91,
+      "base_speed_kmh": 50,
+      "road_type": "nh",
+      "cellular_coverage_pct": 72,
+      "accident_risk": 0.04,
+      "notes": "Gwalior-Jhansi"
+    },
+    {
+      "id": "E-004",
+      "corridor": "NH44",
+      "from_node": "N-JHS",
+      "to_node": "N-LAL",
+      "distance_km": 180.61,
+      "base_speed_kmh": 45,
+      "road_type": "rural",
+      "cellular_coverage_pct": 55,
+      "accident_risk": 0.05,
+      "notes": "Jhansi-Lalitpur ghats [DEAD ZONE]"
+    },
+    {
+      "id": "E-005",
+      "corridor": "NH44",
+      "from_node": "N-LAL",
+      "to_node": "N-SGR",
+      "distance_km": 0.83,
+      "base_speed_kmh": 50,
+      "road_type": "nh",
+      "cellular_coverage_pct": 62,
+      "accident_risk": 0.04,
+      "notes": "Lalitpur-Sagar"
+    },
+    {
+      "id": "E-006",
+      "corridor": "NH44",
+      "from_node": "N-SGR",
+      "to_node": "N-NGP",
+      "distance_km": 298.25,
+      "base_speed_kmh": 65,
+      "road_type": "nh",
+      "cellular_coverage_pct": 88,
+      "accident_risk": 0.02,
+      "notes": "Sagar-Nagpur"
+    },
+    {
+      "id": "E-007",
+      "corridor": "NH44",
+      "from_node": "N-NGP",
+      "to_node": "N-WRD",
+      "distance_km": 67.78,
+      "base_speed_kmh": 55,
+      "road_type": "sh",
+      "cellular_coverage_pct": 75,
+      "accident_risk": 0.03,
+      "notes": "Wardha road"
+    },
+    {
+      "id": "E-008",
+      "corridor": "NH44",
+      "from_node": "N-WRD",
+      "to_node": "N-ADB",
+      "distance_km": 120.46,
+      "base_speed_kmh": 45,
+      "road_type": "rural",
+      "cellular_coverage_pct": 50,
+      "accident_risk": 0.05,
+      "notes": "Adilabad ghats [DEAD ZONE]"
+    },
+    {
+      "id": "E-009",
+      "corridor": "NH44",
+      "from_node": "N-ADB",
+      "to_node": "N-NZB",
+      "distance_km": 119.02,
+      "base_speed_kmh": 50,
+      "road_type": "nh",
+      "cellular_coverage_pct": 70,
+      "accident_risk": 0.03,
+      "notes": "Adilabad-Nizamabad"
+    },
+    {
+      "id": "E-010",
+      "corridor": "NH44",
+      "from_node": "N-NZB",
+      "to_node": "N-KMM",
+      "distance_km": 46.34,
+      "base_speed_kmh": 60,
+      "road_type": "nh",
+      "cellular_coverage_pct": 82,
+      "accident_risk": 0.02,
+      "notes": "Nizamabad-Kamareddy"
+    },
+    {
+      "id": "E-011",
+      "corridor": "NH44",
+      "from_node": "N-KMM",
+      "to_node": "N-HYD",
+      "distance_km": 94.54,
+      "base_speed_kmh": 70,
+      "road_type": "nh",
+      "cellular_coverage_pct": 95,
+      "accident_risk": 0.02,
+      "notes": "ORR Hyderabad approach"
+    },
+    {
+      "id": "E-012",
+      "corridor": "NH44",
+      "from_node": "N-HYD",
+      "to_node": "N-KRN",
+      "distance_km": 189.64,
+      "base_speed_kmh": 60,
+      "road_type": "nh",
+      "cellular_coverage_pct": 85,
+      "accident_risk": 0.03,
+      "notes": "Hyderabad-Kurnool"
+    },
+    {
+      "id": "E-013",
+      "corridor": "NH44",
+      "from_node": "N-KRN",
+      "to_node": "N-ATP",
+      "distance_km": 135.79,
+      "base_speed_kmh": 55,
+      "road_type": "rural",
+      "cellular_coverage_pct": 60,
+      "accident_risk": 0.04,
+      "notes": "Kurnool-Anantapur rural [DEAD ZONE]"
+    },
+    {
+      "id": "E-014",
+      "corridor": "NH44",
+      "from_node": "N-ATP",
+      "to_node": "N-DBP",
+      "distance_km": 117.1,
+      "base_speed_kmh": 55,
+      "road_type": "nh",
+      "cellular_coverage_pct": 72,
+      "accident_risk": 0.03,
+      "notes": "Anantapur-Doddaballapur"
+    },
+    {
+      "id": "E-015",
+      "corridor": "NH44",
+      "from_node": "N-DBP",
+      "to_node": "N-BLR",
+      "distance_km": 66.81,
+      "base_speed_kmh": 75,
+      "road_type": "nh",
+      "cellular_coverage_pct": 95,
+      "accident_risk": 0.02,
+      "notes": "Doddaballapur-Bengaluru"
+    }
+  ],
+  "dead_zones": [
+    {
+      "lat": 24.7,
+      "lng": 78.6,
+      "radius_km": 35.0,
+      "name": "Jhansi-Lalitpur jungle stretch"
+    },
+    {
+      "lat": 20.2,
+      "lng": 79.1,
+      "radius_km": 45.0,
+      "name": "Adilabad ghats"
+    },
+    {
+      "lat": 16.4,
+      "lng": 77.9,
+      "radius_km": 40.0,
+      "name": "Kurnool-Anantapur rural"
+    },
+    {
+      "lat": 14.0,
+      "lng": 77.65,
+      "radius_km": 35.0,
+      "name": "Anantapur-Doddaballapur scrubland"
+    }
+  ]
+}

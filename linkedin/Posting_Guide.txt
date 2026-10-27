@@ -1,0 +1,23 @@
+RECOMMENDED POST
+1. Copy LinkedIn_Post.txt into your post.
+2. Upload AetherGrid_LinkedIn_Carousel.pdf as a document.
+3. Suggested document title: AetherGrid | Beyond the Alert
+4. Preview all six pages before publishing.
+
+ALTERNATIVE
+Use AetherGrid_Cover.png for a single-image post, or upload the six numbered PNG slides in order for a multi-image post. Do not upload the ZIP itself as your post media.
+
+IDENTITY / SCOPE
+Independent personal project by Praveen Sudireddy.
+Digital Specialist Engineer (DSE), Infosys is the author's professional role only.
+No employer sponsorship/endorsement, startup, location, real payment or verified physical rescue is claimed.
+The screenshot is cropped from an actual local synthetic acceptance run, not a live deployment.
+Check applicable personal-project/IP/social-media policies before publishing.
+
+ACCESSIBILITY
+01: AetherGrid: The alert is only step one. Independent personal software project exploring decisions after a cold-chain warning.
+02: Six-stage reviewed flow: signed telemetry, heuristic distress, buyer qualification, reservation, operator confirmation, ledger and reported receipt.
+03: Actual synthetic acceptance screenshot. Simulated farmer credit of INR 108,780, equal to 90.65% of a stated INR 120,000 test baseline; not actual payment.
+04: Software verification: 51 Python tests, 2,230 calculation assertions and 70 routing cases across seven profiles with 2,100 field comparisons.
+05: A buyer-role portal/API access mismatch missed by operator-only tests was fixed and checked through separate-role browser testing.
+06: Tested prototype capabilities and explicit limits: no real payments, verified physical rescue, field-validated accuracy or deployment certification; hardware excluded.

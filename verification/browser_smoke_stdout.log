@@ -1,0 +1,37 @@
+[
+  {
+    "portal": "command",
+    "http_status": 200,
+    "body_characters": 2362,
+    "page_errors": [],
+    "simulation_banner": true
+  },
+  {
+    "portal": "buyer",
+    "http_status": 200,
+    "body_characters": 2020,
+    "page_errors": [],
+    "simulation_banner": true
+  },
+  {
+    "portal": "analytics",
+    "http_status": 200,
+    "body_characters": 932,
+    "page_errors": [],
+    "simulation_banner": true
+  },
+  {
+    "portal": "carrier",
+    "http_status": 200,
+    "body_characters": 1233,
+    "page_errors": [],
+    "simulation_banner": true
+  },
+  {
+    "portal": "insurance",
+    "http_status": 200,
+    "body_characters": 1559,
+    "page_errors": [],
+    "simulation_banner": true
+  }
+]

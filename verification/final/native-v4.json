@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": [
+    "70 routing cases / 7 commodities match Python ranked plans",
+    "same-node empty candidates returns delivery only",
+    "model route selection preserves biological life and original destination",
+    "recovery token is one-time and revokes old sessions",
+    "auditor can change own password; incorrect old password rejected and old session revoked",
+    "atomic key rotation and explicit revocation",
+    "readiness exposes alert list and disclaims certification",
+    "retention preserves ledger, samples and replay cursor",
+    "80 requests at concurrency 12 have no 5xx",
+    "bounded load all 80 successful",
+    "offline provider contract rejects mismatch, stale event, terminal reversal"
+  ],
+  "routing_cases": 70,
+  "routing_field_assertions": 2100,
+  "load": {
+    "requests": 80,
+    "concurrency": 12,
+    "status_counts": {
+      "200": 80
+    },
+    "p50_ms": 10.044148000019959,
+    "p95_ms": 19.831702000033147,
+    "max_ms": 30.552408999994896
+  },
+  "scope": "local synthetic tests only; no provider certification or field evidence"
+}

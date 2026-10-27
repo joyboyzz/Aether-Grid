@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "fresh process preserves settlement",
+    "valid-MAC replay rejected after restart",
+    "capacity retained without double release",
+    "callback terminal state retained",
+    "duplicate confirmation blocked after restart",
+    "online SQLite backup integrity and settlement retained",
+    "independent application process boots restored backup and serves settlement"
+  ]
+}

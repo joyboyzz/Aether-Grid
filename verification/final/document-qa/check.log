@@ -1,0 +1,25 @@
+{
+  "deck": {
+    "pages": 17,
+    "bounds_issues": [],
+    "identity_checked": true,
+    "passed": true
+  },
+  "paper": {
+    "pages": 7,
+    "bounds_issues": [],
+    "identity_checked": true,
+    "passed": true
+  },
+  "pptx": {
+    "slides": 17,
+    "editable_text_shapes": 204,
+    "identity_checked": true
+  },
+  "pptx_render": {
+    "engine": "LibreOffice",
+    "slides": 17,
+    "text_loss_or_bounds_issues": [],
+    "passed": true
+  }
+}

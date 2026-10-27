@@ -1,0 +1,32 @@
+{
+  "runs": 1000,
+  "root_seed": 20261023,
+  "trucks_per_run": 5,
+  "totals": {
+    "lots": 5000,
+    "distressed_lots": 460,
+    "auctioned_lots": 371,
+    "ledger_awards": 168,
+    "delivered_original": 3384,
+    "spoiled_model": 1448,
+    "unresolved": 0,
+    "recovery_sum_pct": 15463.94,
+    "savings_sum_pct": 5311.79
+  },
+  "award_fraction_of_distressed_pct": 36.52173913043478,
+  "run_award_fraction_p2_5_p97_5": [
+    0.0,
+    100.0
+  ],
+  "conditional_mean_recovery_pct": 92.04726190476191,
+  "conditional_mean_savings_pct": 31.617797619047618,
+  "limitations": [
+    "Synthetic five-truck replay, not the historical 36-truck demo or field validation.",
+    "Actual HMAC, BioTimer, telemetry state transitions, buyer gates and settlement handlers exercised.",
+    "One hour per packet, straight-line GPS interpolation; not realistic traffic/food-safety calibration.",
+    "Reviewer approve probability 85% is an assumption, not observed behaviour.",
+    "Ledger award is not physical rescue or confirmed delivery. Monetary metrics exclude non-awarded lots.",
+    "Percentiles are run spread, not confidence bounds; deadlines use wall time, not accelerated bio-time.",
+    "No packet loss/dead zones or physical tamper simulated here; cryptographic rejection covered separately."
+  ]
+}

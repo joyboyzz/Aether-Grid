@@ -1,0 +1,10 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AetherGrid.Core -> /home/user/aethergrid/dotnet/AetherGrid.Core/bin/Debug/net10.0/AetherGrid.Core.dll
+  AetherGrid.Api -> /home/user/aethergrid/dotnet/AetherGrid.Api/bin/Debug/net10.0/AetherGrid.Api.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29

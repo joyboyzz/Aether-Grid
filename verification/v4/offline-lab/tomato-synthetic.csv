@@ -1,0 +1,16 @@
+lot_id,source,split,temperature_c,observed_shelf_hours,shelf_reference_hours
+SYNTHETIC-Tomato-0,synthetic,train,5,352.9635245428465,360
+SYNTHETIC-Tomato-1,synthetic,train,12,188.81697528375676,360
+SYNTHETIC-Tomato-2,synthetic,train,20,91.00103075932248,360
+SYNTHETIC-Tomato-3,synthetic,train,28,44.91648229255397,360
+SYNTHETIC-Tomato-4,synthetic,train,35,22.71814946398168,360
+SYNTHETIC-Tomato-5,synthetic,train,5,357.17296312483256,360
+SYNTHETIC-Tomato-6,synthetic,train,12,187.11927810825125,360
+SYNTHETIC-Tomato-7,synthetic,train,20,92.8911476882025,360
+SYNTHETIC-Tomato-8,synthetic,train,28,44.655176707761086,360
+SYNTHETIC-Tomato-9,synthetic,train,35,23.53064955544822,360
+SYNTHETIC-Tomato-10,synthetic,holdout,5,352.23912604011593,360
+SYNTHETIC-Tomato-11,synthetic,holdout,12,187.40396879508447,360
+SYNTHETIC-Tomato-12,synthetic,holdout,20,91.08701874162088,360
+SYNTHETIC-Tomato-13,synthetic,holdout,28,42.792643933953045,360
+SYNTHETIC-Tomato-14,synthetic,holdout,35,23.62879735151268,360

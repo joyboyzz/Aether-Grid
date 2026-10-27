@@ -1,0 +1,35 @@
+{
+  "/api/health": 200,
+  "/api/buyers": 200,
+  "/api/batches": 200,
+  "/api/auctions": 200,
+  "/api/settlements": 200,
+  "/api/events": 200,
+  "/api/summary": 200,
+  "/api/commodities": 200,
+  "/api/route": 200,
+  "/api/carrier/sla": 200,
+  "/api/insurance/claims": 200,
+  "/api/settlements.csv": 200,
+  "unknown_commodity": 422,
+  "websocket_accept": {
+    "ok": true,
+    "accepted": 1,
+    "rejected": 0,
+    "failures": []
+  },
+  "websocket_replay_reject": {
+    "ok": true,
+    "accepted": 0,
+    "rejected": 1,
+    "failures": [
+      {
+        "error": "attestation_failed",
+        "reason": "replay:seq=1<=prev=1"
+      }
+    ]
+  },
+  "invalid_coordinate": 422,
+  "missing_operator_token": 403,
+  "socketio_polling_connected": true
+}

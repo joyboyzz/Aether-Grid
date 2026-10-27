@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": {
+    "python /": 200,
+    "python /buyer": 200,
+    "python /analytics": 200,
+    "python /carrier": 200,
+    "python /insurance": 200,
+    "python /api/batches": 200,
+    "python /api/buyers": 200,
+    "python /api/settlements": 200,
+    "python /api/summary": 200,
+    "python /api/carrier/sla": 200,
+    "python /api/insurance/claims": 200,
+    "python v2 WebSocket accept/replay and Socket.IO polling": true,
+    "calculation service unauthorized blocked / authorized parity": true
+  },
+  "scope": "Supplementary reference-service smoke, not whole-server equivalence"
+}

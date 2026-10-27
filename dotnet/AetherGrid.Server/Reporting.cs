@@ -1,0 +1,11 @@
+using System.Text.Json.Nodes;
+using System.Text;
+namespace AetherGrid.Server;
+public static class Reporting
+{
+ public static void Map(WebApplication app,Store store){
+ app.MapGet("/api/carrier/sla",()=>store.Read(tx=>tx.All("carrier").Select(c=>{var batches=tx.All("batch").Where(b=>b.S("carrier_id")==c.S("id")).ToArray();var settlements=tx.All("settlement").Where(s=>batches.Any(b=>b.S("id")==s.S("batch_id"))).ToArray();return new{carrier_id=c.S("id"),carrier=c.S("name"),sla_score=c.N("sla_compliance_pct",96),trucks=tx.All("truck").Count(t=>t.S("carrier_id")==c.S("id")),batches_active=batches.Count(b=>b.S("status")=="InTransit"),distressed=batches.Count(b=>b.S("status")=="DistressedLiquidation"),rescued=settlements.Length,spoiled=batches.Count(b=>b.S("status")=="Spoiled"),penalties_inr=settlements.Sum(s=>s.N("logistics_penalty_inr")),farmer_recovered_inr=settlements.Sum(s=>s.N("farmer_total_payout_inr")),source="operator-asserted SLA; simulated ledger"};}).ToArray()));
+ app.MapGet("/api/insurance/claims",()=>store.Read(tx=>tx.All("settlement").Select(s=>{var b=tx.Need("batch",s.S("batch_id"));return new{id=s.S("id"),policy=b.S("policy_no","SIMULATED-NO-POLICY"),carrier=tx.Get("carrier",b.S("carrier_id"))?.S("name"),commodity=b.S("commodity"),kg=s.N("kg_cleared"),salvage=s.N("salvage_revenue_inr"),payout=s.N("insurance_payout_inr"),penalty=s.N("logistics_penalty_inr"),farmer_total=s.N("farmer_total_payout_inr"),oracle_hash=s.S("evidence_hash"),status="Simulated",financial_execution=false};}).ToArray()));
+ app.MapGet("/api/settlements/export.csv",()=>{string Escape(string s)=>"\""+s.Replace("\"","\"\"")+"\"";var data=store.Read(tx=>tx.All("settlement"));var sb=new StringBuilder("settlement_id,batch_id,salvage_inr,insurance_inr,penalty_inr,farmer_total_inr,mode\n");foreach(var s in data)sb.AppendLine(string.Join(",",new[]{Escape(s.S("id")),Escape(s.S("batch_id")),s.N("salvage_revenue_inr").ToString(System.Globalization.CultureInfo.InvariantCulture),s.N("insurance_payout_inr").ToString(System.Globalization.CultureInfo.InvariantCulture),s.N("logistics_penalty_inr").ToString(System.Globalization.CultureInfo.InvariantCulture),s.N("farmer_total_payout_inr").ToString(System.Globalization.CultureInfo.InvariantCulture),"simulated"}));return Results.File(Encoding.UTF8.GetBytes(sb.ToString()),"text/csv","simulated-settlements.csv");});
+ }
+}

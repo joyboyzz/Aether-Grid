@@ -1,0 +1,1 @@
+lot_id,commodity,source,source_reference,split,temperature_c,observed_shelf_hours,shelf_reference_hours,quality_endpoint_method,observer_id,measurement_started_utc,measurement_ended_utc,humidity_pct,ethylene_ppm,protocol_version,deviation_note

@@ -1,0 +1,16 @@
+lot_id,source,split,temperature_c,observed_shelf_hours,shelf_reference_hours
+SYNTHETIC-Alphonso Mango-0,synthetic,train,5,265.4056930547525,264
+SYNTHETIC-Alphonso Mango-1,synthetic,train,12,130.15006063210492,264
+SYNTHETIC-Alphonso Mango-2,synthetic,train,20,55.69821945401412,264
+SYNTHETIC-Alphonso Mango-3,synthetic,train,28,24.011338312883225,264
+SYNTHETIC-Alphonso Mango-4,synthetic,train,35,12.045083539629879,264
+SYNTHETIC-Alphonso Mango-5,synthetic,train,5,268.24511704455983,264
+SYNTHETIC-Alphonso Mango-6,synthetic,train,12,130.2750549179404,264
+SYNTHETIC-Alphonso Mango-7,synthetic,train,20,56.544772351270815,264
+SYNTHETIC-Alphonso Mango-8,synthetic,train,28,24.485690485171972,264
+SYNTHETIC-Alphonso Mango-9,synthetic,train,35,12.035089597972629,264
+SYNTHETIC-Alphonso Mango-10,synthetic,holdout,5,270.8096464937639,264
+SYNTHETIC-Alphonso Mango-11,synthetic,holdout,12,128.43277778160805,264
+SYNTHETIC-Alphonso Mango-12,synthetic,holdout,20,57.74056812121589,264
+SYNTHETIC-Alphonso Mango-13,synthetic,holdout,28,24.574588130794783,264
+SYNTHETIC-Alphonso Mango-14,synthetic,holdout,35,11.780753006761941,264

@@ -1,0 +1,16 @@
+lot_id,source,split,temperature_c,observed_shelf_hours,shelf_reference_hours
+SYNTHETIC-Banana (Yelakki)-0,synthetic,train,5,293.90288647730296,288
+SYNTHETIC-Banana (Yelakki)-1,synthetic,train,12,149.93887807168824,288
+SYNTHETIC-Banana (Yelakki)-2,synthetic,train,20,70.52089340505816,288
+SYNTHETIC-Banana (Yelakki)-3,synthetic,train,28,32.02355614649278,288
+SYNTHETIC-Banana (Yelakki)-4,synthetic,train,35,16.549415046366335,288
+SYNTHETIC-Banana (Yelakki)-5,synthetic,train,5,285.9456212780128,288
+SYNTHETIC-Banana (Yelakki)-6,synthetic,train,12,143.72842086557074,288
+SYNTHETIC-Banana (Yelakki)-7,synthetic,train,20,68.74798597707516,288
+SYNTHETIC-Banana (Yelakki)-8,synthetic,train,28,31.478534839059503,288
+SYNTHETIC-Banana (Yelakki)-9,synthetic,train,35,16.21183065681926,288
+SYNTHETIC-Banana (Yelakki)-10,synthetic,holdout,5,294.32365812045754,288
+SYNTHETIC-Banana (Yelakki)-11,synthetic,holdout,12,147.09675802483878,288
+SYNTHETIC-Banana (Yelakki)-12,synthetic,holdout,20,67.18529264861367,288
+SYNTHETIC-Banana (Yelakki)-13,synthetic,holdout,28,31.743449644419226,288
+SYNTHETIC-Banana (Yelakki)-14,synthetic,holdout,35,16.8380298084222,288

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "idempotency duplicates stable, changed obligation rejected",
+    "ambiguous 502 reconciled by lookup, not an automatic POST retry",
+    "actual HTTP read timeout after commit reconciled without second submission",
+    "all 7 commodity synthetic pipelines require opt-in",
+    "all 7 reject repeated-lot leakage",
+    "candidate fits never modify runtime coefficients"
+  ],
+  "commodities": 7,
+  "field_validation": false
+}

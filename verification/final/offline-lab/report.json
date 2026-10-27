@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "checks": [
+    "idempotency duplicates stable, changed obligation rejected",
+    "ambiguous 502 reconciled by lookup, not an automatic POST retry",
+    "actual HTTP read timeout after commit reconciled without second submission",
+    "all 7 commodity synthetic pipelines require opt-in",
+    "all 7 reject repeated-lot leakage",
+    "candidate fits never modify runtime coefficients"
+  ],
+  "provider": "our local invented HTTP contract, NOT a provider sandbox",
+  "field_validation": false,
+  "real_financial_execution": false,
+  "calibration_results": [
+    {
+      "commodity": "Alphonso Mango",
+      "status": "candidate_fit_only_not_validated",
+      "q10": 2.8062077014971387,
+      "train_n": 10,
+      "holdout_n": 5,
+      "holdout_mape_pct": 1.3872223772836456,
+      "synthetic": true,
+      "configuration_changed": false,
+      "limitations": [
+        "Constant-temperature controlled experiments only; fixed 5C reference.",
+        "Provenance labels are user assertions, not independent verification.",
+        "No food-safety approval, external validation, humidity/ethylene fitting or deployment authorization."
+      ]
+    },
+    {
+      "commodity": "Tomato",
+      "status": "candidate_fit_only_not_validated",
+      "q10": 2.489408567289393,
+      "train_n": 10,
+      "holdout_n": 5,
+      "holdout_mape_pct": 1.7551183648615827,
+      "synthetic": true,
+      "configuration_changed": false,
+      "limitations": [
+        "Constant-temperature controlled experiments only; fixed 5C reference.",
+        "Provenance labels are user assertions, not independent verification.",
+        "No food-safety approval, external validation, humidity/ethylene fitting or deployment authorization."
+      ]
+    },
+    {
+      "commodity": "Dairy (Peda)",
+      "status": "candidate_fit_only_not_validated",
+      "q10": 3.506903197907122,
+      "train_n": 10,
+      "holdout_n": 5,
+      "holdout_mape_pct": 1.346457338237178,
+      "synthetic": true,
+      "configuration_changed": false,
+      "limitations": [
+        "Constant-temperature controlled experiments only; fixed 5C reference.",
+        "Provenance labels are user assertions, not independent verification.",
+        "No food-safety approval, external validation, humidity/ethylene fitting or deployment authorization."
+      ]
+    },
+    {
+      "commodity": "Seafood (Pomfret)",
+      "status": "candidate_fit_only_not_validated",
+      "q10": 3.2038672055185944,
+      "train_n": 10,
+      "holdout_n": 5,
+      "holdout_mape_pct": 0.9836814966993703,
+      "synthetic": true,
+      "configuration_changed": false,
+      "limitations": [
+        "Constant-temperature controlled experiments only; fixed 5C reference.",
+        "Provenance labels are user assertions, not independent verification.",
+        "No food-safety approval, external validation, humidity/ethylene fitting or deployment authorization."
+      ]
+    },
+    {
+      "commodity": "Leafy Greens (Palak)",
+      "status": "candidate_fit_only_not_validated",
+      "q10": 3.0047991279639774,
+      "train_n": 10,
+      "holdout_n": 5,
+      "holdout_mape_pct": 1.4005327733457675,
+      "synthetic": true,
+      "configuration_changed": false,
+      "limitations": [
+        "Constant-temperature controlled experiments only; fixed 5C reference.",
+        "Provenance labels are user assertions, not independent verification.",
+        "No food-safety approval, external validation, humidity/ethylene fitting or deployment authorization."
+      ]
+    },
+    {
+      "commodity": "Banana (Yelakki)",
+      "status": "candidate_fit_only_not_validated",
+      "q10": 2.600219913855787,
+      "train_n": 10,
+      "holdout_n": 5,
+      "holdout_mape_pct": 1.6265057877751032,
+      "synthetic": true,
+      "configuration_changed": false,
+      "limitations": [
+        "Constant-temperature controlled experiments only; fixed 5C reference.",
+        "Provenance labels are user assertions, not independent verification.",
+        "No food-safety approval, external validation, humidity/ethylene fitting or deployment authorization."
+      ]
+    },
+    {
+      "commodity": "Poultry (Chicken)",
+      "status": "candidate_fit_only_not_validated",
+      "q10": 3.3967293050736043,
+      "train_n": 10,
+      "holdout_n": 5,
+      "holdout_mape_pct": 1.3900668916298193,
+      "synthetic": true,
+      "configuration_changed": false,
+      "limitations": [
+        "Constant-temperature controlled experiments only; fixed 5C reference.",
+        "Provenance labels are user assertions, not independent verification.",
+        "No food-safety approval, external validation, humidity/ethylene fitting or deployment authorization."
+      ]
+    }
+  ]
+}

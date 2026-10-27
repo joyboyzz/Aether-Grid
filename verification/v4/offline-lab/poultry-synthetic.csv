@@ -1,0 +1,16 @@
+lot_id,source,split,temperature_c,observed_shelf_hours,shelf_reference_hours
+SYNTHETIC-Poultry (Chicken)-0,synthetic,train,5,95.20049852533509,96
+SYNTHETIC-Poultry (Chicken)-1,synthetic,train,12,41.60362915959176,96
+SYNTHETIC-Poultry (Chicken)-2,synthetic,train,20,15.606222703212135,96
+SYNTHETIC-Poultry (Chicken)-3,synthetic,train,28,5.676708797092773,96
+SYNTHETIC-Poultry (Chicken)-4,synthetic,train,35,2.4187841509605943,96
+SYNTHETIC-Poultry (Chicken)-5,synthetic,train,5,94.74712708422906,96
+SYNTHETIC-Poultry (Chicken)-6,synthetic,train,12,40.02859472660151,96
+SYNTHETIC-Poultry (Chicken)-7,synthetic,train,20,15.57552159198063,96
+SYNTHETIC-Poultry (Chicken)-8,synthetic,train,28,5.839060593550209,96
+SYNTHETIC-Poultry (Chicken)-9,synthetic,train,35,2.4446852067589933,96
+SYNTHETIC-Poultry (Chicken)-10,synthetic,holdout,5,96.33067893571322,96
+SYNTHETIC-Poultry (Chicken)-11,synthetic,holdout,12,41.27101507484162,96
+SYNTHETIC-Poultry (Chicken)-12,synthetic,holdout,20,15.65235764464633,96
+SYNTHETIC-Poultry (Chicken)-13,synthetic,holdout,28,5.836152544005137,96
+SYNTHETIC-Poultry (Chicken)-14,synthetic,holdout,35,2.3969380135463294,96

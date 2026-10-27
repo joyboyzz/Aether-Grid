@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "opt-in automatic model rerouting recomputes recommendations without changing original destination",
+    "serial-scoped root rotation revokes old root and accepts new MAC without restart",
+    "SIGKILL with pending reservation recovers and releases once after deadline",
+    "expired legacy-shaped session deleted without deleting cursors or ledger",
+    "stale telemetry generates a concrete critical readiness alert",
+    "global rate limit returns 429 under excess requests"
+  ]
+}

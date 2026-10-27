@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    "fresh DB provisioned via authorized API",
+    "Python-signed telemetry opened distress auction",
+    "real buyer login redirects and auto-selects bound identity",
+    "buyer browser reserves complete lot with CSRF",
+    "reservation alone cannot create settlement",
+    "separate operator browser confirms; UI shows expected simulated credit",
+    "receipt API and duplicate guard release capacity once",
+    "different buyer cannot read another buyer award or financial totals",
+    "winning buyer sees own scoped settlement",
+    "CSV reporting includes confirmed simulation",
+    "browser logout returns to login"
+  ],
+  "browser_page_errors": [],
+  "failed_ui_requests": [],
+  "financial_execution": false,
+  "physical_delivery_verified": false,
+  "scope": "Fresh native published-build acceptance; two actual browser roles, simulated telemetry and ledger; receipt via API"
+}

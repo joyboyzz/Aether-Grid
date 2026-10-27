@@ -1,0 +1,11 @@
+{
+  "liveness": {
+    "alive": true,
+    "scope": "algorithm service; not full Python API parity"
+  },
+  "unauthenticated": 401,
+  "settlement_matches_python": true,
+  "eligibility_matches_python": true,
+  "bio_matches_python": true,
+  "missing_profile_rejected": 400
+}

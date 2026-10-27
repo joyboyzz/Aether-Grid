@@ -1,0 +1,41 @@
+{
+  "runs": 1000,
+  "seed": 20261023,
+  "rescued": 440,
+  "rescue_rate_pct": 44.0,
+  "rescue_rate_wilson_95_pct": [
+    40.95213001510468,
+    47.09379276793202
+  ],
+  "conditional_on_rescue": {
+    "farmer_recovery_pct": {
+      "n": 440,
+      "mean": 97.97518181818182,
+      "p2_5": 93.73724999999999,
+      "p97_5": 99.21
+    },
+    "buyer_savings_pct": {
+      "n": 440,
+      "mean": 32.96790909090909,
+      "p2_5": 15.8385,
+      "p97_5": 49.01275
+    }
+  },
+  "rejection_counts": {
+    "insufficient_capacity": 828,
+    "outside_radius": 1957,
+    "insufficient_simulated_escrow": 1087,
+    "commodity_mismatch": 713,
+    "unreachable_before_rvh": 1202,
+    "policy_not_pre_authorized": 387
+  },
+  "caveats": [
+    "Synthetic independent scenarios; not measured fleet performance.",
+    "Rescue means an eligible funded simulated bid, not successful physical delivery.",
+    "Recovery and savings exclude unrescued lots; no claim about all-farmer recovery.",
+    "Percentile intervals describe scenario spread, NOT confidence intervals on means.",
+    "Wilson interval measures simulation sampling error only, not model uncertainty.",
+    "RVH, demand, travel speed and insurance availability are unvalidated assumptions.",
+    "Each scenario resets funds/capacity; no multi-auction competition or telemetry replay."
+  ]
+}

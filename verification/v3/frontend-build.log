@@ -1,0 +1,18 @@
+
+> aethergrid-console@1.0.0 build
+> tsc -b && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 2417 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.98 kB │ gzip:   0.60 kB
+dist/assets/index-BuPbVPMZ.css  211.36 kB │ gzip:  32.74 kB
+dist/assets/index-DWqV2g74.js   741.19 kB │ gzip: 209.48 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 6.75s

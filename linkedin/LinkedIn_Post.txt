@@ -1,0 +1,44 @@
+A temperature alert isn’t a rescue.
+It’s the start of a decision. 🚛
+
+Who can receive the load?
+Is the buyer eligible?
+Who authorizes the next step?
+And what happens if the system crashes halfway through?
+
+That’s the space I explored with AetherGrid — my independent cold-chain software project.
+
+The idea: connect the steps after detection.
+
+📡 Signed telemetry
+→ Heuristic shelf-life estimation
+→ Buyer qualification
+→ Full-lot reservation
+→ Separate operator confirmation
+→ Simulated settlement and reported receipt
+
+Built with React, TypeScript, ASP.NET Core and SQLite, with Python as a reference implementation.
+
+But the most useful result wasn’t a green test report.
+
+An operator-only smoke test had missed a buyer-role portal/API access mismatch. I fixed the scoped access, then tested the journey with separate buyer and operator browser accounts — including checking that another buyer couldn’t see the award or its financial totals.
+
+That reinforced a lesson I’ll carry forward:
+A working dashboard is not the same as a working user journey.
+
+🔍 What I verified:
+• 51 Python tests
+• 2,230 calculation-parity assertions
+• 70 routing cases across seven profiles, with 2,100 field comparisons
+• Five portals, duplicate guards and forced-crash recovery
+
+The boundaries matter as much as the features: this is a software prototype. Telemetry inputs and financial outcomes are simulated; the shelf-life model is heuristic. No actual payments, verified physical rescue or field-validated accuracy is claimed. Hardware fabrication is excluded.
+
+Swipe through the build story below. 👇
+What failure mode would you add to the test plan?
+
+Praveen Sudireddy
+Digital Specialist Engineer (DSE), Infosys
+Independent personal project; professional role is author context only, with no employer sponsorship or endorsement.
+
+#PersonalProject #SoftwareEngineering #DotNet #ReactJS #LearningInPublic

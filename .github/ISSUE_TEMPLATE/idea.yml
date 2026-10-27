@@ -1,0 +1,24 @@
+name: Improvement proposal
+description: Suggest a focused, testable project improvement.
+title: '[Idea]: '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change and acceptance test
+      description: Explain scope, failure cases and how it can be checked with synthetic data.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Project boundaries
+      options:
+        - label: This proposal does not require hardware fabrication or assume actual financial transfers.
+          required: true

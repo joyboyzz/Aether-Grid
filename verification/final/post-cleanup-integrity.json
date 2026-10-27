@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "parsed_python_files": 64,
+  "sole_markdown": "README.md",
+  "required_files_present": true,
+  "synthetic_databases_removed": true,
+  "document_identity_and_page_counts_checked": true,
+  "scope": "Post-cleanup static integrity; runtime flows were executed before deleting generated build/dependencies"
+}

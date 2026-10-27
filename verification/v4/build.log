@@ -1,0 +1,10 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  AetherGrid.Core -> /home/user/aethergrid/.server-build/AetherGrid.Core.dll
+  AetherGrid.Server -> /home/user/aethergrid/.server-build/AetherGrid.Server.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:25.93

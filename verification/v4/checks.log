@@ -1,0 +1,94 @@
+{
+  "scope": "synthetic native .NET HTTP integration; no hardware, physical results or real money",
+  "checks": [
+    "health explicitly software-only",
+    "opaque HttpOnly cookie",
+    "Python-signed v2 packet accepted by C#",
+    "distress opens auction",
+    "concurrent bid single winner",
+    "single capacity reservation",
+    "manual confirm settles once",
+    "explicit payout baseline",
+    "receipt capacity released once",
+    "integer paise obligation",
+    "callback reconciled and duplicate idempotent",
+    "five-portal read contracts respond",
+    "device read scope blocked",
+    "auditor read-only and revocation immediate",
+    "SSE authorized stream opens",
+    "SSE durable replay advances cursor",
+    "expiry fixture reserved capacity",
+    "expired confirmation releases reservation",
+    "fallback auction persisted",
+    "logout invalidates server-side session"
+  ],
+  "count": 20,
+  "passed": true
+}
+{
+  "passed": true,
+  "checks": [
+    "70 routing cases / 7 commodities match Python ranked plans",
+    "same-node empty candidates returns delivery only",
+    "model route selection preserves biological life and original destination",
+    "recovery token is one-time and revokes old sessions",
+    "auditor can change own password; incorrect old password rejected and old session revoked",
+    "atomic key rotation and explicit revocation",
+    "readiness exposes alert list and disclaims certification",
+    "retention preserves ledger, samples and replay cursor",
+    "80 requests at concurrency 12 have no 5xx",
+    "bounded load all 80 successful",
+    "offline provider contract rejects mismatch, stale event, terminal reversal"
+  ],
+  "routing_cases": 70,
+  "routing_field_assertions": 2100,
+  "load": {
+    "requests": 80,
+    "concurrency": 12,
+    "status_counts": {
+      "200": 80
+    },
+    "p50_ms": 10.609932999955163,
+    "p95_ms": 22.155359999942448,
+    "max_ms": 32.742495999968924
+  },
+  "scope": "local synthetic tests only; no provider certification or field evidence"
+}
+{
+  "portals": [
+    {
+      "route": "/",
+      "status": 200,
+      "body_chars": 2849,
+      "errors": []
+    },
+    {
+      "route": "/buyer",
+      "status": 200,
+      "body_chars": 630,
+      "errors": []
+    },
+    {
+      "route": "/analytics",
+      "status": 200,
+      "body_chars": 1034,
+      "errors": []
+    },
+    {
+      "route": "/carrier",
+      "status": 200,
+      "body_chars": 822,
+      "errors": []
+    },
+    {
+      "route": "/insurance",
+      "status": 200,
+      "body_chars": 1657,
+      "errors": []
+    }
+  ],
+  "page_errors": [],
+  "failed_api": [],
+  "passed": true
+}
+PASS v4 parity, operations, offline contract adversity, load, rotation and crash recovery
