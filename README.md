@@ -92,7 +92,7 @@ The narrow proposed supervised pilot is mangoes on Bengaluru–Hyderabad with 5�
 |---|---|
 | **Implemented/tested** | Executable software paths exercised by supplied checks. |
 | **Simulated** | Generated readings, demand, balances, insurance calculations, credits and reviewer actions in tests. |
-| **Prepared, not executed here** | Container recipes, container/image-scan CI and environment-specific deployment configuration. |
+| **Prepared, not deployed** | Environment-specific deployment, TLS/proxy and operations configuration; Docker build and the image scan have now passed cloud CI. |
 | **Externally unverified** | Physical quality/delivery benefit, real provider acceptance, actual transfers, independent security/operational approval. |
 | **Excluded** | Hardware fabrication, secure-element construction and real BLE mesh implementation. |
 
@@ -455,13 +455,15 @@ Publish denominators covering all enrolled, failed, withdrawn, no-buyer and expi
 
 ## 11. Deployment boundaries and remaining work
 
-Dockerfile/Compose provide non-root process, read-only filesystem, private data/secrets mounts, dropped capabilities, bounded tmpfs/PIDs/memory and loopback HTTP binding. They are **prepared, not container-tested here**: this sandbox has no Docker/Podman runtime/daemon and no effective Linux capabilities. GitHub Actions now runs the native tests, Docker build and Trivy gate; consult its live conclusion above. No passing cloud/container result is claimed merely because the workflow is present. The original local review did not execute a container build or scan.
+**Cloud verification update — 27 October 2026:** [GitHub run 40541217921](https://github.com/joyboyzz/Aether-Grid/actions/runs/40541217921) passed the native checks, two-role Chromium journey, Python/.NET parity, offline checks, Docker image build and Trivy HIGH/CRITICAL gate on commit `1c17b2a`. This is a build/test/scan result—not a deployed service, external security audit or field/financial outcome. The live badge tracks subsequent runs.
+
+Dockerfile/Compose provide non-root process, read-only filesystem, private data/secrets mounts, dropped capabilities, bounded tmpfs/PIDs/memory and loopback HTTP binding. The original local sandbox had no Docker/Podman runtime/daemon or effective Linux capabilities; the image has since been built and scanned on GitHub’s hosted runner as linked above. Compose runtime restrictions and real deployment/TLS/host integration have not been exercised merely by building the image. GitHub Actions now runs the native tests, Docker build and Trivy gate; consult its live conclusion above. No passing cloud/container result is claimed merely because the workflow is present. The original local review did not execute a container build or scan.
 
 On a capable host, use `docker compose -f deployment/compose.yml build` and supply secrets externally. Compose expects `private/secrets/users.json`, `private/secrets/keyring.json` and writable `private/data/`; check image user UID/permissions. Terminate TLS, preserve public host/origin and restrict direct HTTP access. Review/pin images/actions for your organization; tags are not supply-chain attestations.
 
 Remaining external gates:
 
-- Container build/image scan execution; actual deployment/TLS/proxy/alert checks.
+- Container runtime/Compose hardening validation and actual deployment/TLS/proxy/alert checks. The image build and configured scan gate passed the linked cloud run; that does not establish runtime hardening or an absence of all vulnerabilities.
 - External penetration/security review, MFA/SSO decision, operating ownership, offsite recovery and load/capacity sign-off.
 - Actual selected-provider adapter validation with permitted access and contractual reconciliation semantics.
 - Genuine biological calibration, quality review, consented supervised pilot and independently verified outcomes.
