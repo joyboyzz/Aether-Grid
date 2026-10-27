@@ -5,6 +5,8 @@
 **Cold-chain decisions beyond the alert.**  
 Signed telemetry → eligible buyer → human review → simulated ledger.
 
+[![Software verification](https://github.com/joyboyzz/Aether-Grid/actions/workflows/software.yml/badge.svg)](https://github.com/joyboyzz/Aether-Grid/actions/workflows/software.yml)
+
 [Explore the architecture](#3-architecture-and-layers) · [Run locally](#7-build-run-and-reproduce) · [Inspect the evidence](#2-current-status-and-fresh-end-to-end-checks) · [Contribute](#contributing-and-collaboration)
 
 </div>
@@ -42,7 +44,9 @@ Operator-only smoke tests missed a buyer-role portal/API access mismatch. The fi
 
 **Praveen Sudireddy | Digital Specialist Engineer (DSE), Infosys**  
 **Master project summary, architecture, progress journal and operations guide**  
-Consolidated review: **24 October 2026**.
+Consolidated local review: **24 October 2026**. Public repository published: **27 October 2026**.
+
+**Live cloud verification:** consult the [actual GitHub Actions runs](https://github.com/joyboyzz/Aether-Grid/actions/workflows/software.yml) and status badge above. The recorded local acceptance strip is not a CI badge. A queued, cancelled or failed run does not establish a passing cloud/container result. CI uploads only newly generated per-run reports, separate from the historical local evidence.
 
 AetherGrid is my independent personal project—not a startup, registered company or employer product. My professional role identifies the author only; no Infosys sponsorship, authorization or endorsement is claimed. There is no company office/headquarters/location claim. Bengaluru–Hyderabad below is a **proposed pilot corridor**, not a business location.
 
@@ -451,7 +455,7 @@ Publish denominators covering all enrolled, failed, withdrawn, no-buyer and expi
 
 ## 11. Deployment boundaries and remaining work
 
-Dockerfile/Compose provide non-root process, read-only filesystem, private data/secrets mounts, dropped capabilities, bounded tmpfs/PIDs/memory and loopback HTTP binding. They are **prepared, not container-tested here**: this sandbox has no Docker/Podman runtime/daemon and no effective Linux capabilities. GitHub Actions includes native tests, Docker build and Trivy gate, but no CI run or image scan result is claimed.
+Dockerfile/Compose provide non-root process, read-only filesystem, private data/secrets mounts, dropped capabilities, bounded tmpfs/PIDs/memory and loopback HTTP binding. They are **prepared, not container-tested here**: this sandbox has no Docker/Podman runtime/daemon and no effective Linux capabilities. GitHub Actions now runs the native tests, Docker build and Trivy gate; consult its live conclusion above. No passing cloud/container result is claimed merely because the workflow is present. The original local review did not execute a container build or scan.
 
 On a capable host, use `docker compose -f deployment/compose.yml build` and supply secrets externally. Compose expects `private/secrets/users.json`, `private/secrets/keyring.json` and writable `private/data/`; check image user UID/permissions. Terminate TLS, preserve public host/origin and restrict direct HTTP access. Review/pin images/actions for your organization; tags are not supply-chain attestations.
 

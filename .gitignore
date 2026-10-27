@@ -34,3 +34,6 @@ release/
 frontend/vite.config.js
 frontend/vite.config.d.ts
 .cache/
+
+# Per-run cloud CI outputs; not the historical local evidence.
+.ci-evidence/

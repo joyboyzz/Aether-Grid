@@ -1,7 +1,7 @@
 """Fresh real-browser buyer/operator journey. Synthetic accounts, data and ledger only."""
 import os,pathlib,json,time,subprocess,hashlib,base64,hmac,httpx
 from playwright.sync_api import sync_playwright
-ROOT=pathlib.Path(__file__).resolve().parents[1];os.chdir(ROOT);OUT=ROOT/'verification/final';OUT.mkdir(parents=True,exist_ok=True);P=ROOT/'.acceptance-private/ui';P.mkdir(parents=True,exist_ok=True);os.chmod(P,0o700)
+ROOT=pathlib.Path(__file__).resolve().parents[1];os.chdir(ROOT);OUT=ROOT/os.environ.get('AETHER_EVIDENCE_DIR','verification/final');OUT.mkdir(parents=True,exist_ok=True);P=ROOT/'.acceptance-private/ui';P.mkdir(parents=True,exist_ok=True);os.chmod(P,0o700)
 for f in P.glob('ui.db*'):f.unlink()
 def hashed(pw):
  salt=os.urandom(16);return 'pbkdf2-sha256$210000$'+base64.b64encode(salt).decode()+'$'+base64.b64encode(hashlib.pbkdf2_hmac('sha256',pw.encode(),salt,210000)).decode()
